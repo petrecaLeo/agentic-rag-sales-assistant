@@ -174,7 +174,7 @@ Two of the three fixes weren't in the prompt at all: one was in a tool descripti
 ### What I learned
 
 1. **Sometimes the fix is in the data.** Rewriting one policy sentence with the word customers actually use ("return") helped BM25 and embeddings at the same time.
-2. **Pick the metric that matches how results are used.** The hybrid search has the *lowest* recall@1, but Claude reads the top 5, and there the hybrid wins by far (95%).
+2. **Pick the metric that matches how results are used.** The hybrid search gets the first result right less often than BM25 or embeddings alone (61% vs 63%), but Claude reads the top 5, and there the hybrid wins by far (95%).
 3. **Measure ideas before keeping them.** Removing Portuguese stopwords sounded like an obvious BM25 win. It dropped recall@3 from 73% to 66%, so it was reverted, and the result is kept in [`evals/retrieval/results/`](evals/retrieval/results/).
 4. **Don't trust a 10, read it.** The judge gave v2 a 10 everywhere. I checked the suspicious ones: battery numbers in an answer looked unsourced, but they were in the search results' descriptions.
 5. **Let code do the money.** With prices in cents, coupons in code and cards built from tool results, the model has no way to put a wrong price on a card.

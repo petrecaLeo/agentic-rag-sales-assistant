@@ -174,7 +174,7 @@ Duas das três correções nem estavam no prompt: uma estava na descrição de u
 ### O que eu aprendi
 
 1. **Às vezes a correção está nos dados.** Reescrever uma frase da política com a palavra que o cliente usa ("devolver") ajudou o BM25 e os embeddings ao mesmo tempo.
-2. **Escolha a métrica que combina com o uso.** A busca híbrida tem o *menor* recall@1, mas o Claude lê os 5 primeiros, e aí o híbrido ganha com folga (95%).
+2. **Escolha a métrica que combina com o uso.** A busca híbrida acerta o 1º lugar menos vezes que o BM25 ou os embeddings sozinhos (61% contra 63%), mas o Claude lê os 5 primeiros, e aí o híbrido ganha com folga (95%).
 3. **Meça a ideia antes de ficar com ela.** Tirar as stopwords do português parecia uma vitória óbvia para o BM25. O recall@3 caiu de 73% para 66%, então a mudança foi desfeita, e o resultado ficou guardado em [`evals/retrieval/results/`](evals/retrieval/results/).
 4. **Não confie num 10, leia.** O juiz deu 10 para o v2 em tudo. Conferi os suspeitos: os números de bateria de uma resposta pareciam sem fonte, mas estavam nas descrições dos resultados da busca.
 5. **Deixe o dinheiro com o código.** Com preços em centavos, cupons no código e cards montados dos resultados das tools, o modelo não tem como pôr um preço errado num card.
