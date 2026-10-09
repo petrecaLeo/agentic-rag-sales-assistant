@@ -1,0 +1,256 @@
+.messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.messages > * {
+  flex-shrink: 0;
+}
+
+.message {
+  max-width: 62ch;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.message.assistant,
+.message.error {
+  position: relative;
+  align-self: flex-start;
+  min-height: 34px;
+  padding: 5px 4px 0 48px;
+}
+
+.message.assistant::before,
+.message.error::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  background: var(--berry) url("../img/mark.svg") center / 28px no-repeat;
+}
+
+.message.error {
+  color: var(--danger);
+}
+
+.message.error::before {
+  background-color: var(--danger);
+}
+
+.message.user {
+  align-self: flex-end;
+  max-width: min(80%, 46ch);
+  padding: 10px 16px;
+  border-radius: 20px;
+  background: var(--blush);
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 2px 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.steps:empty {
+  display: none;
+}
+
+.steps-summary {
+  margin: 2px 0 10px;
+}
+
+.steps-summary summary {
+  width: fit-content;
+  color: var(--muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.steps-summary summary::-webkit-details-marker {
+  display: none;
+}
+
+.steps-summary summary::after {
+  content: " ▾";
+}
+
+.steps-summary[open] summary::after {
+  content: " ▴";
+}
+
+.steps-summary summary:hover {
+  color: var(--berry);
+}
+
+.steps-summary .steps {
+  margin: 8px 0 0;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.step::before {
+  content: "";
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.step.running::before {
+  border: 2px solid var(--blush);
+  border-top-color: var(--berry);
+  animation: spin 0.8s linear infinite;
+}
+
+.step.done::before,
+.step.note::before {
+  background: var(--berry);
+}
+
+.step.failed {
+  color: var(--danger);
+}
+
+.step.failed::before {
+  border: 2px solid var(--danger);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.message.pending .text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 24px;
+}
+
+.message.pending span {
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: var(--berry);
+  animation: blink 1.1s infinite ease-in-out;
+}
+
+.message.pending span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.message.pending span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes blink {
+  0%, 80%, 100% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+.composer {
+  padding: 12px 24px 22px;
+}
+
+.composer-field {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  padding: 6px 6px 6px 18px;
+  border-radius: 26px;
+  background: var(--paper);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.composer-field:focus-within {
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1.5px var(--berry), 0 0 0 4px var(--blush);
+}
+
+.composer textarea {
+  flex: 1;
+  max-height: 160px;
+  padding: 9px 0;
+  border: 0;
+  background: transparent;
+  line-height: 1.4;
+  resize: none;
+  outline: none;
+}
+
+.composer textarea::placeholder {
+  color: var(--muted);
+}
+
+.send {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--berry);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.send:hover {
+  background: var(--berry-deep);
+}
+
+.send:disabled {
+  background: #d9cdd5;
+  cursor: not-allowed;
+}
+
+.send svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 640px) {
+  .messages {
+    padding: 16px;
+  }
+
+  .composer {
+    padding: 10px 12px 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .step.running::before {
+    animation: none;
+  }
+
+  .message.pending span {
+    animation: none;
+    opacity: 0.6;
+  }
+}

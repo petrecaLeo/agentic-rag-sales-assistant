@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assistente de vendas da Circuito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/opener.css">
+  <link rel="stylesheet" href="css/chat.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo" aria-hidden="true"></span>
+        <div>
+          <h1>Circuito</h1>
+          <p data-i18n="header.subtitle">Assistente de vendas</p>
+        </div>
+      </div>
+
+      <div class="settings">
+        <div class="language-switch" role="group" aria-label="Idioma" data-i18n-label="settings.language">
+          <button type="button" data-language="pt" aria-pressed="true">PT</button>
+          <button type="button" data-language="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" class="new-chat" id="new-chat" aria-label="Nova conversa" data-i18n-label="chat.new">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+            <path d="M12 5v14M5 12h14"/>
+          </svg>
+          <span data-i18n="chat.new">Nova conversa</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="panel" aria-label="Conversa com o assistente" data-i18n-label="chat.label">
+      <div class="messages" id="messages" aria-live="polite"></div>
+
+      <form class="composer" id="composer">
+        <div class="composer-field">
+          <textarea id="composer-input" rows="1" maxlength="1000" aria-label="Sua pergunta" data-i18n-label="chat.input" data-i18n-placeholder="chat.placeholder"></textarea>
+          <button type="submit" class="send" aria-label="Enviar" data-i18n-label="chat.send">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 19V5M6 11l6-6 6 6"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>

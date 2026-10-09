@@ -1,0 +1,7 @@
+[
+  {"codigo": "BEMVINDO10", "tipo": "percentual", "valor": 10},
+  {"codigo": "FONE15", "tipo": "percentual", "valor": 15, "categorias": ["fones"]},
+  {"codigo": "NOTE200", "tipo": "fixo", "valor": 20000, "categorias": ["notebooks"], "minimo": 300000},
+  {"codigo": "VERAO25", "tipo": "percentual", "valor": 25, "validade": "2026-03-20"},
+  {"codigo": "PIX5", "tipo": "percentual", "valor": 5, "pagamento": "pix"}
+]

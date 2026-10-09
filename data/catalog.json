@@ -1,0 +1,3824 @@
+[
+  {
+    "id": 1,
+    "nome": "Aurora Neo 128 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 95990,
+    "estoque": 7,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,5 polegadas, 90 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W"
+    },
+    "descricao": "Perfeito para trabalho e entretenimento, oferece tela grande de 6,5 polegadas com 90 Hz para rolagem suave, câmera de 50 MP para fotos nítidas, bateria de 5.000 mAh com carregamento rápido de 25 W e resistência a respingos."
+  },
+  {
+    "id": 2,
+    "nome": "Aurora Neo 256 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 125990,
+    "estoque": 58,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,5 polegadas, 90 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W"
+    },
+    "descricao": "Ideal para quem precisa armazenar muitas fotos, vídeos e apps, com tela 6,5 polegadas 90 Hz, câmera 50 MP de alta qualidade, bateria 5.000 mAh, carregamento 25 W e proteção contra respingos para uso diário."
+  },
+  {
+    "id": 3,
+    "nome": "Aurora X 128 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 191990,
+    "estoque": 47,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,5 polegadas, 90 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "A melhor escolha para streaming, jogos e trabalho com conectividade 5G de alta velocidade, tela 6,5 polegadas 90 Hz fluida, câmera 50 MP profissional, bateria 5.000 mAh e carregamento super rápido de 33 W."
+  },
+  {
+    "id": 4,
+    "nome": "Aurora X 256 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 221990,
+    "estoque": 32,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,5 polegadas, 90 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Smartphone com tela de 6,5 polegadas 90 Hz, câmera 50 MP e bateria de 5.000 mAh, perfeito para trabalho, redes sociais e fotografia do dia a dia. Conectividade 5G, 256 GB de armazenamento e resistência a respingos."
+  },
+  {
+    "id": 5,
+    "nome": "Aurora S 256 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 304990,
+    "estoque": 0,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,5 polegadas, 120 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W"
+    },
+    "descricao": "Celular com tela 120 Hz de 6,5 polegadas, câmera 64 MP e carregamento rápido 45 W ideal para games, vídeos e fotografias. Bateria 4.000 mAh, 256 GB, resistência total a água e poeira, com 5G."
+  },
+  {
+    "id": 6,
+    "nome": "Aurora S 512 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 354990,
+    "estoque": 0,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,5 polegadas, 120 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W"
+    },
+    "descricao": "Smartphone topo de linha com tela 120 Hz, câmera 64 MP e 512 GB para armazenar fotos, vídeos e jogos. Bateria 4.000 mAh, carregamento 45 W, resistência água e poeira, 5G integrado."
+  },
+  {
+    "id": 7,
+    "nome": "Aurora X Pro 256 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 392990,
+    "estoque": 44,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,2 polegadas, 120 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W",
+      "destaque": "zoom óptico de 5x"
+    },
+    "descricao": "Ideal para fotografia, viagens e trabalho. Tela 120 Hz fluida de 6,2 polegadas, câmera 108 MP com modo noturno e zoom óptico 5x, bateria 4.000 mAh com carregamento 67 W, 5G, resistência IP68 à água e poeira, 256 GB armazenamento."
+  },
+  {
+    "id": 8,
+    "nome": "Aurora X Pro 512 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 442990,
+    "estoque": 21,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,2 polegadas, 120 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W",
+      "destaque": "zoom óptico de 5x"
+    },
+    "descricao": "Perfeito para fotografia, viagens e trabalho. Tela 120 Hz fluida de 6,2 polegadas, câmera 108 MP com modo noturno e zoom óptico 5x, bateria 4.000 mAh com carregamento 67 W, 5G, resistência IP68 à água e poeira, 512 GB armazenamento."
+  },
+  {
+    "id": 9,
+    "nome": "Aurora Fold 256 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 601990,
+    "estoque": 48,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,3 polegadas, 120 Hz, dobrável",
+      "bateria": "4.500 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IPX4 (respingos)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "abre como um tablet de 7,6 polegadas"
+    },
+    "descricao": "Excelente para criatividade, trabalho e entretenimento. Tela dobrável 120 Hz de 6,3 polegadas que abre como tablet 7,6 polegadas, câmera 200 MP com modo noturno, 5G, carregamento 100 W, bateria 4.500 mAh, resistência IPX4, 256 GB armazenamento."
+  },
+  {
+    "id": 10,
+    "nome": "Aurora Fold 512 GB",
+    "categoria": "celulares",
+    "marca": "Aurora",
+    "preco": 651990,
+    "estoque": 5,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,3 polegadas, 120 Hz, dobrável",
+      "bateria": "4.500 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IPX4 (respingos)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "abre como um tablet de 7,6 polegadas"
+    },
+    "descricao": "Smartphone dobrável com tela de 6,3 polegadas que se abre como tablet de 7,6 polegadas. Ideal para trabalho, criatividade e entretenimento. Câmera 200 MP com modo noturno para fotos, 5G, bateria 4.500 mAh e carregamento 100 W."
+  },
+  {
+    "id": 11,
+    "nome": "Nimbus 7 Lite 128 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 125990,
+    "estoque": 30,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,2 polegadas, 90 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W"
+    },
+    "descricao": "Celular 128 GB com tela 6,2 polegadas 90 Hz perfeito para uso diário, trabalho e redes sociais. Câmera 50 MP, bateria 5.000 mAh, resistência a respingos e carregamento rápido 25 W."
+  },
+  {
+    "id": 12,
+    "nome": "Nimbus 7 Lite 256 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 155990,
+    "estoque": 42,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,2 polegadas, 90 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W"
+    },
+    "descricao": "Smartphone 256 GB com tela 6,2 polegadas 90 Hz ideal para trabalho, estudos e entretenimento. Câmera 50 MP, bateria 5.000 mAh robusta, resistência a respingos e carregamento 25 W."
+  },
+  {
+    "id": 13,
+    "nome": "Nimbus 7 128 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 198990,
+    "estoque": 24,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,5 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Celular ideal para trabalho e entretenimento com tela 6,5 polegadas 90 Hz, câmera 50 MP, bateria 4.000 mAh e carregamento 33 W. Conectividade 5G e armazenamento 128 GB para apps, fotos e vídeos. Resistente a respingos para uso diário."
+  },
+  {
+    "id": 14,
+    "nome": "Nimbus 7 256 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 228990,
+    "estoque": 28,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,5 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Smartphone versátil para redes sociais, fotos e trabalho com tela 6,5 polegadas 90 Hz, câmera 50 MP e 5G. Armazenamento 256 GB para guardar mais conteúdo, bateria 4.000 mAh e carregamento rápido 33 W. Resistente a respingos."
+  },
+  {
+    "id": 15,
+    "nome": "Nimbus 8 256 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 238990,
+    "estoque": 8,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,7 polegadas, 120 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W"
+    },
+    "descricao": "Celular premium para games, fotografia e streaming com tela 6,7 polegadas 120 Hz, câmera 64 MP e 5G. Armazenamento 256 GB, bateria 5.000 mAh e carregamento ultra rápido 45 W. Resistente à água e poeira para qualquer situação."
+  },
+  {
+    "id": 16,
+    "nome": "Nimbus 8 512 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 288990,
+    "estoque": 52,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,7 polegadas, 120 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W"
+    },
+    "descricao": "Smartphone tela grande 120 Hz ideal para filmes, jogos e trabalho. Câmera 64 MP, bateria 5.000 mAh, 512 GB armazenamento, 5G e resistência à água e poeira. Carregamento rápido 45 W."
+  },
+  {
+    "id": 17,
+    "nome": "Nimbus 8 Max 256 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 461990,
+    "estoque": 59,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,5 polegadas, 120 Hz",
+      "bateria": "6.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W",
+      "destaque": "bateria que aguenta dois dias de uso"
+    },
+    "descricao": "Celular premium com câmera 108 MP e modo noturno perfeito para fotografia. Bateria durável 6.000 mAh, tela 120 Hz para vídeos e games, 256 GB, 5G, resistência IP68 e carregamento 67 W."
+  },
+  {
+    "id": 18,
+    "nome": "Nimbus 8 Max 512 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 511990,
+    "estoque": 55,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,5 polegadas, 120 Hz",
+      "bateria": "6.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W",
+      "destaque": "bateria que aguenta dois dias de uso"
+    },
+    "descricao": "Smartphone top com câmera 108 MP modo noturno para fotografias profissionais. Bateria 6.000 mAh, tela 120 Hz, 512 GB armazenamento, 5G, resistência IP68 e carregamento super rápido 67 W."
+  },
+  {
+    "id": 19,
+    "nome": "Nimbus Ultra 256 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 654990,
+    "estoque": 52,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,7 polegadas, 120 Hz",
+      "bateria": "4.500 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "zoom óptico de 5x"
+    },
+    "descricao": "Smartphone para fotografia, vídeos e gaming com tela 6,7 polegadas 120 Hz, câmera 200 MP com modo noturno e zoom óptico 5x. Bateria 4.500 mAh com carregamento 100 W, 5G, resistente à água e poeira, armazenamento 256 GB."
+  },
+  {
+    "id": 20,
+    "nome": "Nimbus Ultra 512 GB",
+    "categoria": "celulares",
+    "marca": "Nimbus",
+    "preco": 704990,
+    "estoque": 0,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,7 polegadas, 120 Hz",
+      "bateria": "4.500 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "zoom óptico de 5x"
+    },
+    "descricao": "Celular ideal para trabalho, fotografia e entretenimento com tela 6,7 polegadas 120 Hz, câmera 200 MP com zoom óptico 5x e modo noturno. Oferece 5G, bateria 4.500 mAh, carregamento 100 W, resistência IP68 e 512 GB de armazenamento."
+  },
+  {
+    "id": 21,
+    "nome": "Kora Go 128 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 100990,
+    "estoque": 34,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,2 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W"
+    },
+    "descricao": "Smartphone para uso do dia a dia, redes sociais e chamadas com tela 6,2 polegadas 90 Hz. Câmera 50 MP, bateria 4.000 mAh, carregamento 25 W, resistência a respingos e armazenamento 128 GB."
+  },
+  {
+    "id": 22,
+    "nome": "Kora Go 256 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 130990,
+    "estoque": 7,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,2 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W"
+    },
+    "descricao": "Ideal para trabalho e estudo, com tela fluida de 6,2 polegadas e 90 Hz. Câmera de 50 MP para fotos nítidas, armazenamento de 256 GB, bateria de 4.000 mAh e carregamento de 25 W. Resistente a respingos."
+  },
+  {
+    "id": 23,
+    "nome": "Kora A3 128 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 199990,
+    "estoque": 15,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,4 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Perfeito para navegação, redes sociais e trabalho com conexão 5G rápida. Tela de 6,4 polegadas e 90 Hz, câmera de 50 MP, 128 GB de armazenamento, bateria de 4.000 mAh e carregamento de 33 W. Resistente a respingos."
+  },
+  {
+    "id": 24,
+    "nome": "Kora A3 256 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 229990,
+    "estoque": 8,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,4 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Excelente para jogos, vídeos e trabalho com 5G ultra rápido. Tela de 6,4 polegadas e 90 Hz, câmera de 50 MP, 256 GB de armazenamento, bateria de 4.000 mAh e carregamento de 33 W. Resistente a respingos."
+  },
+  {
+    "id": 25,
+    "nome": "Kora A5 256 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 292990,
+    "estoque": 35,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,4 polegadas, 120 Hz",
+      "bateria": "4.500 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W"
+    },
+    "descricao": "Smartphone com tela fluida de 6,4 polegadas e 120 Hz para navegação, redes sociais e trabalho. Câmera de 64 MP, bateria de 4.500 mAh com carregamento rápido de 45 W, 256 GB de armazenamento, 5G e resistência IP67."
+  },
+  {
+    "id": 26,
+    "nome": "Kora A5 512 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 342990,
+    "estoque": 26,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,4 polegadas, 120 Hz",
+      "bateria": "4.500 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W"
+    },
+    "descricao": "Smartphone com tela fluida de 6,4 polegadas e 120 Hz para navegação, redes sociais e trabalho. Câmera de 64 MP, bateria de 4.500 mAh com carregamento rápido de 45 W, 512 GB de armazenamento, 5G e resistência IP67."
+  },
+  {
+    "id": 27,
+    "nome": "Kora A7 256 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 449990,
+    "estoque": 31,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,3 polegadas, 120 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W"
+    },
+    "descricao": "Smartphone com tela de 6,3 polegadas e 120 Hz para fotografias, redes sociais e trabalho. Câmera de 108 MP com modo noturno, bateria de 5.000 mAh, carregamento ultra rápido de 67 W, 256 GB, 5G e resistência IP68."
+  },
+  {
+    "id": 28,
+    "nome": "Kora A7 512 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 499990,
+    "estoque": 26,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,3 polegadas, 120 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W"
+    },
+    "descricao": "Smartphone com tela 6,3 polegadas 120 Hz, câmera 108 MP com modo noturno e bateria 5.000 mAh. Resistente à água e poeira, com 5G e carregamento 67 W. Perfeito para fotografia, viagens e trabalho."
+  },
+  {
+    "id": 29,
+    "nome": "Kora Flip 256 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 657990,
+    "estoque": 0,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,3 polegadas, 120 Hz, dobrável",
+      "bateria": "4.500 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IPX4 (respingos)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "dobra ao meio e cabe em qualquer bolso"
+    },
+    "descricao": "Celular dobrável com tela 6,3 polegadas 120 Hz que cabe em qualquer bolso. Câmera 200 MP com modo noturno, bateria 4.500 mAh e carregamento 100 W. Ideal para quem busca portabilidade, fotos noturnas e 5G."
+  },
+  {
+    "id": 30,
+    "nome": "Kora Flip 512 GB",
+    "categoria": "celulares",
+    "marca": "Kora",
+    "preco": 707990,
+    "estoque": 57,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,3 polegadas, 120 Hz, dobrável",
+      "bateria": "4.500 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IPX4 (respingos)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "dobra ao meio e cabe em qualquer bolso"
+    },
+    "descricao": "Smartphone dobrável com 512 GB de armazenamento, tela 6,3 polegadas 120 Hz e câmera 200 MP com modo noturno. Compacto quando dobrado, com 5G e carregamento 100 W. Excelente para viagens, trabalho e fotografia."
+  },
+  {
+    "id": 31,
+    "nome": "Vetta Mini 128 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 119990,
+    "estoque": 34,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "5,8 polegadas, 90 Hz",
+      "bateria": "3.800 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W",
+      "destaque": "cabe numa mão só"
+    },
+    "descricao": "Compacto e portátil, ideal para quem busca um celular que cabe numa mão só. Com tela de 5,8 polegadas e 90 Hz, oferece fluidez para redes sociais, vídeos e fotos com câmera de 50 MP. Resistente a respingos, perfeito para uso diário e viagens."
+  },
+  {
+    "id": 32,
+    "nome": "Vetta Mini 256 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 149990,
+    "estoque": 24,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "5,8 polegadas, 90 Hz",
+      "bateria": "3.800 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W",
+      "destaque": "cabe numa mão só"
+    },
+    "descricao": "Compacto e portátil, ideal para quem busca um celular que cabe numa mão só. Com tela de 5,8 polegadas e 90 Hz, oferece fluidez para redes sociais, vídeos e fotos com câmera de 50 MP. Resistente a respingos, perfeito para uso diário e viagens."
+  },
+  {
+    "id": 33,
+    "nome": "Vetta One 128 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 213990,
+    "estoque": 50,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,3 polegadas, 90 Hz",
+      "bateria": "4.500 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Smartphone versátil com 5G para trabalho, estudo e entretenimento em alta velocidade. Tela de 6,3 polegadas com 90 Hz garante fluidez ao navegar e assistir conteúdo. Câmera de 50 MP captura momentos com qualidade, e bateria de 4.500 mAh acompanha seu dia inteiro."
+  },
+  {
+    "id": 34,
+    "nome": "Vetta One 256 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 243990,
+    "estoque": 52,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,3 polegadas, 90 Hz",
+      "bateria": "4.500 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Smartphone com tela de 6,3 polegadas a 90 Hz e câmera de 50 MP, ideal para trabalho e estudo. Possui 256 GB de armazenamento, bateria de 4.500 mAh, carregamento rápido de 33 W e 5G para conectividade. Resistente a respingos."
+  },
+  {
+    "id": 35,
+    "nome": "Vetta Play 256 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 272990,
+    "estoque": 21,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,6 polegadas, 144 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W",
+      "destaque": "câmara de vapor que segura partidas longas sem esquentar"
+    },
+    "descricao": "Celular para jogos e entretenimento com tela de 6,6 polegadas a 144 Hz e câmera de 64 MP. Sistema de resfriamento com câmara de vapor mantém o desempenho em sessões longas. Possui 256 GB, bateria de 4.000 mAh, carregamento de 45 W, 5G e resistência à água e poeira."
+  },
+  {
+    "id": 36,
+    "nome": "Vetta Play 512 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 322990,
+    "estoque": 52,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,6 polegadas, 144 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W",
+      "destaque": "câmara de vapor que segura partidas longas sem esquentar"
+    },
+    "descricao": "Smartphone gamer com tela de 6,6 polegadas a 144 Hz, câmara de vapor para partidas longas sem superaquecimento e câmera de 64 MP. Oferece 512 GB de armazenamento, bateria de 4.000 mAh, carregamento de 45 W, 5G e proteção contra água e poeira."
+  },
+  {
+    "id": 37,
+    "nome": "Vetta Prime 256 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 364990,
+    "estoque": 60,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,6 polegadas, 120 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W"
+    },
+    "descricao": "Ideal para fotos, vídeos e gaming. Tela 6,6 polegadas 120 Hz proporciona fluidez em redes sociais e jogos. Câmera 108 MP com modo noturno captura momentos em qualquer luz. Bateria 5.000 mAh com carregamento 67 W, resistência IP68 e conectividade 5G."
+  },
+  {
+    "id": 38,
+    "nome": "Vetta Prime 512 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 414990,
+    "estoque": 28,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,6 polegadas, 120 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W"
+    },
+    "descricao": "Perfeito para trabalho, criação de conteúdo e entretenimento. Armazenamento 512 GB permite guardar muitas fotos e vídeos. Tela 6,6 polegadas 120 Hz oferece excelente experiência. Câmera 108 MP com modo noturno, bateria 5.000 mAh, carregamento 67 W e 5G."
+  },
+  {
+    "id": 39,
+    "nome": "Vetta Pro 256 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 760990,
+    "estoque": 58,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,4 polegadas, 120 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "zoom óptico de 5x"
+    },
+    "descricao": "Indicado para fotografia profissional e vídeos em alta qualidade. Câmera 200 MP com zoom óptico 5x e modo noturno captura detalhes impressionantes. Carregamento 100 W ultra-rápido, bateria 4.000 mAh, tela 6,4 polegadas 120 Hz, IP68 e 5G."
+  },
+  {
+    "id": 40,
+    "nome": "Vetta Pro 512 GB",
+    "categoria": "celulares",
+    "marca": "Vetta",
+    "preco": 810990,
+    "estoque": 7,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,4 polegadas, 120 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "zoom óptico de 5x"
+    },
+    "descricao": "Perfeito para fotografia, games e redes sociais, oferece tela 6,4 polegadas 120 Hz, câmera 200 MP com modo noturno e zoom óptico 5x. Resistente à água e poeira, bateria 4.000 mAh com carregamento 100 W e 5G para conectividade extrema."
+  },
+  {
+    "id": 41,
+    "nome": "Orbi E1 128 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 99990,
+    "estoque": 1,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,7 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W"
+    },
+    "descricao": "Ideal para uso diário, trabalho e chamadas, com tela 6,7 polegadas 90 Hz e câmera 50 MP. Bateria 4.000 mAh com carregamento 25 W, armazenamento 128 GB e resistência a respingos para seu dia a dia."
+  },
+  {
+    "id": 42,
+    "nome": "Orbi E1 256 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 129990,
+    "estoque": 0,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,7 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "não",
+      "carregamento": "25 W"
+    },
+    "descricao": "Indicado para trabalho, estudo e redes sociais, com tela 6,7 polegadas 90 Hz e câmera 50 MP. Oferece 256 GB de armazenamento, bateria 4.000 mAh com carregamento 25 W e resistência a respingos."
+  },
+  {
+    "id": 43,
+    "nome": "Orbi E2 128 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 180990,
+    "estoque": 13,
+    "atributos": {
+      "armazenamento": "128 GB",
+      "tela": "6,5 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Smartphone com tela de 6,5 polegadas e 90 Hz para rolagem suave. Câmera de 50 MP, bateria de 4.000 mAh e carregamento rápido de 33 W. Conectividade 5G e resistência a respingos. Ideal para trabalho, redes sociais e fotografia do dia a dia com 128 GB de armazenamento."
+  },
+  {
+    "id": 44,
+    "nome": "Orbi E2 256 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 210990,
+    "estoque": 40,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,5 polegadas, 90 Hz",
+      "bateria": "4.000 mAh",
+      "câmera principal": "50 MP",
+      "resistência": "IP54 (respingos)",
+      "5G": "sim",
+      "carregamento": "33 W"
+    },
+    "descricao": "Smartphone com tela de 6,5 polegadas e 90 Hz para fluidez total. Câmera de 50 MP, bateria de 4.000 mAh e carregamento de 33 W. Conectividade 5G e resistência a respingos IP54. Perfeito para trabalho, redes sociais, fotos e vídeos com amplo armazenamento de 256 GB."
+  },
+  {
+    "id": 45,
+    "nome": "Orbi Note 256 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 233990,
+    "estoque": 49,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,5 polegadas, 120 Hz",
+      "bateria": "6.000 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W",
+      "destaque": "caneta stylus na caixa"
+    },
+    "descricao": "Smartphone topo de linha com tela 120 Hz, câmera de 64 MP e bateria robusta de 6.000 mAh. Carregamento ultrarrápido de 45 W, resistência completa IP67 à água e poeira. Inclui caneta stylus para desenho, notas e trabalho criativo. Conectividade 5G com 256 GB de espaço."
+  },
+  {
+    "id": 46,
+    "nome": "Orbi Note 512 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 283990,
+    "estoque": 10,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,5 polegadas, 120 Hz",
+      "bateria": "6.000 mAh",
+      "câmera principal": "64 MP",
+      "resistência": "IP67 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "45 W",
+      "destaque": "caneta stylus na caixa"
+    },
+    "descricao": "Smartphone com tela de 6,5 polegadas 120 Hz, câmera 64 MP, bateria 6.000 mAh e carregamento 45 W. Resistente a água e poeira, com 5G e 512 GB. Ideal para trabalho, criatividade e desenho com a caneta stylus incluída."
+  },
+  {
+    "id": 47,
+    "nome": "Orbi Note Plus 256 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 350990,
+    "estoque": 60,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,6 polegadas, 120 Hz",
+      "bateria": "6.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W",
+      "destaque": "caneta stylus na caixa"
+    },
+    "descricao": "Smartphone com tela 6,6 polegadas 120 Hz, câmera 108 MP com modo noturno, bateria 6.000 mAh e carregamento 67 W. Resistente a água e poeira, com 5G e 256 GB. Perfeito para fotografia, redes sociais, trabalho e criatividade com stylus."
+  },
+  {
+    "id": 48,
+    "nome": "Orbi Note Plus 512 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 400990,
+    "estoque": 32,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,6 polegadas, 120 Hz",
+      "bateria": "6.000 mAh",
+      "câmera principal": "108 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "67 W",
+      "destaque": "caneta stylus na caixa"
+    },
+    "descricao": "Smartphone com tela 6,6 polegadas 120 Hz, câmera 108 MP com modo noturno, bateria 6.000 mAh e carregamento 67 W. Resistente a água e poeira, com 5G e 512 GB. Excelente para fotografia, redes sociais, trabalho e criatividade com stylus."
+  },
+  {
+    "id": 49,
+    "nome": "Orbi Edge 256 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 721990,
+    "estoque": 38,
+    "atributos": {
+      "armazenamento": "256 GB",
+      "tela": "6,8 polegadas, 120 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "tela curva nas bordas"
+    },
+    "descricao": "Smartphone ideal para fotografia e viagem, com câmera de 200 MP e modo noturno, tela de 6,8 polegadas a 120 Hz, bateria de 5.000 mAh, carregamento de 100 W, resistência IP68 e conectividade 5G para chamadas e trabalho."
+  },
+  {
+    "id": 50,
+    "nome": "Orbi Edge 512 GB",
+    "categoria": "celulares",
+    "marca": "Orbi",
+    "preco": 771990,
+    "estoque": 39,
+    "atributos": {
+      "armazenamento": "512 GB",
+      "tela": "6,8 polegadas, 120 Hz",
+      "bateria": "5.000 mAh",
+      "câmera principal": "200 MP, com modo noturno",
+      "resistência": "IP68 (água e poeira)",
+      "5G": "sim",
+      "carregamento": "100 W",
+      "destaque": "tela curva nas bordas"
+    },
+    "descricao": "Celular perfeito para quem precisa armazenar fotos, vídeos e documentos, com câmera de 200 MP, modo noturno, tela 6,8 polegadas a 120 Hz, 5.000 mAh de bateria, carregamento 100 W, resistência IP68 e 5G para trabalho e comunicação."
+  },
+  {
+    "id": 51,
+    "nome": "Vetor Book 14 (8 GB, SSD 256 GB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 310990,
+    "estoque": 9,
+    "atributos": {
+      "processador": "AMD Ryzen 3",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 256 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,6 kg",
+      "bateria": "até 9 horas",
+      "perfil": "estudo",
+      "destaque": "webcam HD e teclado numérico"
+    },
+    "descricao": "Notebook compacto e leve indicado para estudo e trabalho, com processador AMD Ryzen 3, 8 GB memória, SSD 256 GB, tela 14 polegadas, pesa 1,6 kg, bateria até 9 horas, webcam HD e teclado numérico para produtividade."
+  },
+  {
+    "id": 52,
+    "nome": "Vetor Book 14 (8 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 372990,
+    "estoque": 59,
+    "atributos": {
+      "processador": "AMD Ryzen 3",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,6 kg",
+      "bateria": "até 9 horas",
+      "perfil": "estudo",
+      "destaque": "webcam HD e teclado numérico"
+    },
+    "descricao": "Processador AMD Ryzen 3 com 8 GB de memória e SSD de 512 GB, tela de 14 polegadas e peso de 1,6 kg. Bateria de até 9 horas, webcam HD e teclado numérico. Ideal para estudo e trabalhos escolares com portabilidade e autonomia."
+  },
+  {
+    "id": 53,
+    "nome": "Vetor 15 (8 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 417990,
+    "estoque": 13,
+    "atributos": {
+      "processador": "AMD Ryzen 5",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "15,6 polegadas",
+      "peso": "1,6 kg",
+      "bateria": "até 10 horas",
+      "perfil": "trabalho",
+      "destaque": "leitor de digital e webcam Full HD"
+    },
+    "descricao": "Processador AMD Ryzen 5 com 8 GB de memória e SSD de 512 GB, tela de 15,6 polegadas e peso de 1,6 kg. Bateria de até 10 horas, leitor de digital e webcam Full HD. Perfeito para trabalho, videoconferências e produtividade diária."
+  },
+  {
+    "id": 54,
+    "nome": "Vetor 15 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 501990,
+    "estoque": 7,
+    "atributos": {
+      "processador": "AMD Ryzen 5",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "15,6 polegadas",
+      "peso": "1,6 kg",
+      "bateria": "até 10 horas",
+      "perfil": "trabalho",
+      "destaque": "leitor de digital e webcam Full HD"
+    },
+    "descricao": "Processador AMD Ryzen 5 com 16 GB de memória e SSD de 512 GB, tela de 15,6 polegadas e peso de 1,6 kg. Bateria de até 10 horas, leitor de digital e webcam Full HD. Ideal para trabalho multitarefa, design e edição com melhor desempenho."
+  },
+  {
+    "id": 55,
+    "nome": "Vetor Air 13 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 527990,
+    "estoque": 60,
+    "atributos": {
+      "processador": "Intel Core i7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "13,3 polegadas",
+      "peso": "1,0 kg",
+      "bateria": "até 15 horas",
+      "perfil": "leve",
+      "destaque": "carcaça de alumínio com menos de 1,5 cm de espessura"
+    },
+    "descricao": "Notebook ultraleve com processador Intel Core i7, 16 GB de memória e SSD de 512 GB. Tela de 13,3 polegadas, bateria de até 15 horas e carcaça de alumínio. Perfeito para trabalho, estudo e mobilidade com desempenho garantido."
+  },
+  {
+    "id": 56,
+    "nome": "Vetor Air 13 (16 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 633990,
+    "estoque": 2,
+    "atributos": {
+      "processador": "Intel Core i7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "integrada",
+      "tela": "13,3 polegadas",
+      "peso": "1,0 kg",
+      "bateria": "até 15 horas",
+      "perfil": "leve",
+      "destaque": "carcaça de alumínio com menos de 1,5 cm de espessura"
+    },
+    "descricao": "Notebook ultraleve com processador Intel Core i7, 16 GB de memória e SSD de 1 TB. Tela de 13,3 polegadas, bateria de até 15 horas e carcaça de alumínio. Ideal para trabalho, estudo e viagem com amplo armazenamento."
+  },
+  {
+    "id": 57,
+    "nome": "Vetor G15 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 607990,
+    "estoque": 59,
+    "atributos": {
+      "processador": "AMD Ryzen 7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "NVIDIA RTX 4050",
+      "tela": "15,6 polegadas",
+      "peso": "2,3 kg",
+      "bateria": "até 5 horas",
+      "perfil": "jogos",
+      "destaque": "tela de 165 Hz e teclado com iluminação RGB"
+    },
+    "descricao": "Notebook para jogos com processador AMD Ryzen 7, placa de vídeo NVIDIA RTX 4050 e tela de 165 Hz com iluminação RGB. 16 GB de memória, SSD de 512 GB e 15,6 polegadas. Indicado para games e criação de conteúdo."
+  },
+  {
+    "id": 58,
+    "nome": "Vetor G15 (32 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 729990,
+    "estoque": 30,
+    "atributos": {
+      "processador": "AMD Ryzen 7",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "15,6 polegadas",
+      "peso": "2,3 kg",
+      "bateria": "até 5 horas",
+      "perfil": "jogos",
+      "destaque": "tela de 165 Hz e teclado com iluminação RGB"
+    },
+    "descricao": "Notebook potente com processador AMD Ryzen 7, 32 GB de memória e placa NVIDIA RTX 4060, ideal para jogos e trabalhos gráficos. Tela de 15,6 polegadas com taxa de 165 Hz oferece fluidez e responsividade, com teclado RGB iluminado."
+  },
+  {
+    "id": 59,
+    "nome": "Vetor Studio 16 (32 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 1028990,
+    "estoque": 40,
+    "atributos": {
+      "processador": "Intel Core i9",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 10 horas",
+      "perfil": "criação",
+      "destaque": "tela 2.5K com cores calibradas para foto e vídeo"
+    },
+    "descricao": "Notebook ultra portátil com Intel Core i9, 32 GB de memória e RTX 4060, perfeito para criação de conteúdo, edição de foto e vídeo. Tela 2.5K com cores calibradas proporciona precisão profissional com autonomia de até 10 horas."
+  },
+  {
+    "id": 60,
+    "nome": "Vetor Studio 16 (32 GB, SSD 2 TB)",
+    "categoria": "notebooks",
+    "marca": "Vetor",
+    "preco": 1234990,
+    "estoque": 39,
+    "atributos": {
+      "processador": "Intel Core i9",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 2 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 10 horas",
+      "perfil": "criação",
+      "destaque": "tela 2.5K com cores calibradas para foto e vídeo"
+    },
+    "descricao": "Notebook profissional com Intel Core i9, 32 GB de memória e 2 TB de armazenamento, indicado para criadores de conteúdo, edição de foto e vídeo em alta resolução. Tela 2.5K calibrada e até 10 horas de bateria para trabalho contínuo."
+  },
+  {
+    "id": 61,
+    "nome": "Lumen Edu 14 (8 GB, SSD 256 GB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 265990,
+    "estoque": 59,
+    "atributos": {
+      "processador": "Intel Core i3",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 256 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 7 horas",
+      "perfil": "estudo",
+      "destaque": "webcam HD e teclado numérico"
+    },
+    "descricao": "Notebook leve e portátil com processador Intel Core i3, 8 GB de memória e SSD de 256 GB, ideal para estudo e trabalhos acadêmicos. Tela de 14 polegadas, webcam HD e teclado numérico facilitam videoaulas e digitação. Bateria durável até 7 horas."
+  },
+  {
+    "id": 62,
+    "nome": "Lumen Edu 14 (8 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 318990,
+    "estoque": 42,
+    "atributos": {
+      "processador": "Intel Core i3",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 7 horas",
+      "perfil": "estudo",
+      "destaque": "webcam HD e teclado numérico"
+    },
+    "descricao": "Notebook com Intel Core i3, 8 GB de memória e maior armazenamento de 512 GB em SSD, perfeito para estudo com múltiplos projetos. Tela de 14 polegadas, webcam HD e teclado numérico. Bateria de até 7 horas mantém você produtivo durante aulas."
+  },
+  {
+    "id": 63,
+    "nome": "Lumen Office 15 (8 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 411990,
+    "estoque": 44,
+    "atributos": {
+      "processador": "Intel Core i5",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "15,6 polegadas",
+      "peso": "1,6 kg",
+      "bateria": "até 10 horas",
+      "perfil": "trabalho",
+      "destaque": "leitor de digital e webcam Full HD"
+    },
+    "descricao": "Notebook profissional com processador Intel Core i5, 8 GB de memória e 512 GB em SSD para trabalho eficiente. Tela de 15,6 polegadas, webcam Full HD e leitor biométrico garantem produtividade e segurança. Bateria de até 10 horas para longas jornadas."
+  },
+  {
+    "id": 64,
+    "nome": "Lumen Office 15 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 493990,
+    "estoque": 9,
+    "atributos": {
+      "processador": "Intel Core i5",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "15,6 polegadas",
+      "peso": "1,6 kg",
+      "bateria": "até 10 horas",
+      "perfil": "trabalho",
+      "destaque": "leitor de digital e webcam Full HD"
+    },
+    "descricao": "Perfeito para trabalho e produtividade. Tela de 15,6 polegadas, processador Intel Core i5, 16 GB de memória e SSD de 512 GB garantem desempenho eficiente. Leve com 1,6 kg, bateria até 10 horas, leitor digital e webcam Full HD para videoconferências."
+  },
+  {
+    "id": 65,
+    "nome": "Lumen Slim 14 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 578990,
+    "estoque": 55,
+    "atributos": {
+      "processador": "Intel Core i7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,2 kg",
+      "bateria": "até 14 horas",
+      "perfil": "leve",
+      "destaque": "carcaça de alumínio com menos de 1,5 cm de espessura"
+    },
+    "descricao": "Ideal para trabalho em movimento e viagens. Ultraportátil com 1,2 kg, tela de 14 polegadas e carcaça de alumínio ultrafina. Processador Intel Core i7, 16 GB de RAM, SSD 512 GB e bateria até 14 horas para produtividade o dia todo."
+  },
+  {
+    "id": 66,
+    "nome": "Lumen Slim 14 (16 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 694990,
+    "estoque": 18,
+    "atributos": {
+      "processador": "Intel Core i7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,2 kg",
+      "bateria": "até 14 horas",
+      "perfil": "leve",
+      "destaque": "carcaça de alumínio com menos de 1,5 cm de espessura"
+    },
+    "descricao": "Excelente para trabalho e estudo com grande armazenamento. Ultraportátil com 1,2 kg, tela 14 polegadas e carcaça de alumínio ultrafina. Processador Intel Core i7, 16 GB de memória, SSD de 1 TB e bateria até 14 horas de autonomia."
+  },
+  {
+    "id": 67,
+    "nome": "Lumen Blaze 16 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 727990,
+    "estoque": 23,
+    "atributos": {
+      "processador": "AMD Ryzen 7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "NVIDIA RTX 4050",
+      "tela": "16 polegadas",
+      "peso": "2,5 kg",
+      "bateria": "até 5 horas",
+      "perfil": "jogos",
+      "destaque": "tela de 165 Hz e teclado com iluminação RGB"
+    },
+    "descricao": "Potente para jogos e aplicações exigentes, com processador AMD Ryzen 7, 16 GB de memória, SSD 512 GB e placa NVIDIA RTX 4050. Tela de 16 polegadas com 165 Hz e teclado RGB iluminado proporcionam experiência imersiva para gamers."
+  },
+  {
+    "id": 68,
+    "nome": "Lumen Blaze 16 (32 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 873990,
+    "estoque": 30,
+    "atributos": {
+      "processador": "AMD Ryzen 7",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "2,5 kg",
+      "bateria": "até 5 horas",
+      "perfil": "jogos",
+      "destaque": "tela de 165 Hz e teclado com iluminação RGB"
+    },
+    "descricao": "Ideal para jogos em alta performance com AMD Ryzen 7, 32 GB memória, SSD 1 TB e placa NVIDIA RTX 4060. Tela de 16 polegadas com 165 Hz e teclado com iluminação RGB oferecem conforto e qualidade visual superiores para longas sessões."
+  },
+  {
+    "id": 69,
+    "nome": "Lumen Creator 16 (32 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 998990,
+    "estoque": 31,
+    "atributos": {
+      "processador": "AMD Ryzen 9",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "1,9 kg",
+      "bateria": "até 8 horas",
+      "perfil": "criação",
+      "destaque": "tela 2.5K com cores calibradas para foto e vídeo"
+    },
+    "descricao": "Excelente para criação de conteúdo com processador AMD Ryzen 9, 32 GB memória e SSD 1 TB. Tela de 16 polegadas 2.5K com cores calibradas é perfeita para fotografia, edição de vídeo e trabalhos de design profissional."
+  },
+  {
+    "id": 70,
+    "nome": "Lumen Creator 16 (32 GB, SSD 2 TB)",
+    "categoria": "notebooks",
+    "marca": "Lumen",
+    "preco": 1198990,
+    "estoque": 34,
+    "atributos": {
+      "processador": "AMD Ryzen 9",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 2 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "1,9 kg",
+      "bateria": "até 8 horas",
+      "perfil": "criação",
+      "destaque": "tela 2.5K com cores calibradas para foto e vídeo"
+    },
+    "descricao": "Notebook potente com processador AMD Ryzen 9, 32 GB de memória e placa NVIDIA RTX 4060, ideal para criação de conteúdo, edição de fotos e vídeos. Tela 2.5K com cores calibradas, SSD 2 TB e bateria até 8 horas."
+  },
+  {
+    "id": 71,
+    "nome": "Arca Start 15 (8 GB, SSD 256 GB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 305990,
+    "estoque": 6,
+    "atributos": {
+      "processador": "AMD Ryzen 3",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 256 GB",
+      "placa de vídeo": "integrada",
+      "tela": "15,6 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 7 horas",
+      "perfil": "estudo",
+      "destaque": "webcam HD e teclado numérico"
+    },
+    "descricao": "Notebook leve e compacto com processador AMD Ryzen 3 e 8 GB de memória, perfeito para estudo e trabalho de escritório. Tela 15,6 polegadas, webcam HD, teclado numérico e bateria até 7 horas."
+  },
+  {
+    "id": 72,
+    "nome": "Arca Start 15 (8 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 366990,
+    "estoque": 42,
+    "atributos": {
+      "processador": "AMD Ryzen 3",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "15,6 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 7 horas",
+      "perfil": "estudo",
+      "destaque": "webcam HD e teclado numérico"
+    },
+    "descricao": "Notebook leve e compacto com processador AMD Ryzen 3, 8 GB de memória e armazenamento 512 GB, ideal para estudo e tarefas diárias. Tela 15,6 polegadas, webcam HD, teclado numérico e bateria até 7 horas."
+  },
+  {
+    "id": 73,
+    "nome": "Arca Pro 14 (8 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 378990,
+    "estoque": 23,
+    "atributos": {
+      "processador": "Intel Core i5",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 11 horas",
+      "perfil": "trabalho",
+      "destaque": "leitor de digital e webcam Full HD"
+    },
+    "descricao": "Notebook ideal para trabalho e produtividade diária. Equipado com processador Intel Core i5, 8 GB de memória e SSD de 512 GB, oferece desempenho confiável. Tela de 14 polegadas, bateria de até 11 horas e peso de 1,8 kg garantem mobilidade. Leitor biométrico digital e webcam Full HD completam a proposta."
+  },
+  {
+    "id": 74,
+    "nome": "Arca Pro 14 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 454990,
+    "estoque": 37,
+    "atributos": {
+      "processador": "Intel Core i5",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 11 horas",
+      "perfil": "trabalho",
+      "destaque": "leitor de digital e webcam Full HD"
+    },
+    "descricao": "Perfeito para profissionais que buscam performance em trabalho e multitarefa. Processador Intel Core i5, 16 GB de memória e SSD de 512 GB proporcionam velocidade. Tela de 14 polegadas, bateria durável de até 11 horas e peso de 1,8 kg facilitam o transporte. Leitor digital e webcam Full HD integrados."
+  },
+  {
+    "id": 75,
+    "nome": "Arca Feather 13 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 607990,
+    "estoque": 37,
+    "atributos": {
+      "processador": "Intel Core i7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "13,3 polegadas",
+      "peso": "1,0 kg",
+      "bateria": "até 15 horas",
+      "perfil": "leve",
+      "destaque": "carcaça de alumínio com menos de 1,5 cm de espessura"
+    },
+    "descricao": "Notebook ultraportátil para quem trabalha em movimento. Processador Intel Core i7, 16 GB de memória e SSD de 512 GB garantem fluidez. Pesa apenas 1,0 kg com bateria de até 15 horas, tela de 13,3 polegadas e carcaça de alumínio super fina para máxima portabilidade."
+  },
+  {
+    "id": 76,
+    "nome": "Arca Feather 13 (16 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 729990,
+    "estoque": 37,
+    "atributos": {
+      "processador": "Intel Core i7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "integrada",
+      "tela": "13,3 polegadas",
+      "peso": "1,0 kg",
+      "bateria": "até 15 horas",
+      "perfil": "leve",
+      "destaque": "carcaça de alumínio com menos de 1,5 cm de espessura"
+    },
+    "descricao": "Perfeito para trabalho, estudo e viagens. Ultraportátil com apenas 1 kg, processador Intel Core i7, 16 GB de memória, 1 TB de armazenamento e bateria de até 15 horas. Carcaça de alumínio ultrafina para máxima mobilidade."
+  },
+  {
+    "id": 77,
+    "nome": "Arca Titan 15 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 687990,
+    "estoque": 17,
+    "atributos": {
+      "processador": "AMD Ryzen 7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "NVIDIA RTX 4050",
+      "tela": "15,6 polegadas",
+      "peso": "2,5 kg",
+      "bateria": "até 4 horas",
+      "perfil": "jogos",
+      "destaque": "tela de 165 Hz e teclado com iluminação RGB"
+    },
+    "descricao": "Ideal para jogos e edição. Tela 15,6 polegadas com 165 Hz, processador AMD Ryzen 7, placa NVIDIA RTX 4050, 16 GB de memória e 512 GB em SSD. Teclado RGB para imersão completa em suas partidas."
+  },
+  {
+    "id": 78,
+    "nome": "Arca Titan 15 (32 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 825990,
+    "estoque": 0,
+    "atributos": {
+      "processador": "AMD Ryzen 7",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "15,6 polegadas",
+      "peso": "2,5 kg",
+      "bateria": "até 4 horas",
+      "perfil": "jogos",
+      "destaque": "tela de 165 Hz e teclado com iluminação RGB"
+    },
+    "descricao": "Feito para gamers e criadores de conteúdo. Tela 15,6 polegadas com 165 Hz, processador AMD Ryzen 7, placa NVIDIA RTX 4060, 32 GB de memória e 1 TB em SSD. Teclado RGB para performance máxima em jogos e trabalhos pesados."
+  },
+  {
+    "id": 79,
+    "nome": "Arca Atelier 16 (32 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 973990,
+    "estoque": 12,
+    "atributos": {
+      "processador": "Intel Core i9",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "2,0 kg",
+      "bateria": "até 9 horas",
+      "perfil": "criação",
+      "destaque": "tela 2.5K com cores calibradas para foto e vídeo"
+    },
+    "descricao": "Notebook potente com processador Intel Core i9, 32 GB de memória e SSD de 1 TB, ideal para criação de conteúdo, edição de fotos e vídeos. Tela 16 polegadas 2.5K com cores calibradas, placa NVIDIA RTX 4060 e bateria até 9 horas."
+  },
+  {
+    "id": 80,
+    "nome": "Arca Atelier 16 (32 GB, SSD 2 TB)",
+    "categoria": "notebooks",
+    "marca": "Arca",
+    "preco": 1168990,
+    "estoque": 7,
+    "atributos": {
+      "processador": "Intel Core i9",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 2 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "2,0 kg",
+      "bateria": "até 9 horas",
+      "perfil": "criação",
+      "destaque": "tela 2.5K com cores calibradas para foto e vídeo"
+    },
+    "descricao": "Notebook profissional com Intel Core i9, 32 GB de memória e amplo SSD de 2 TB, perfeito para criação, edição de fotos e vídeos em alta resolução. Tela 16 polegadas 2.5K calibrada, NVIDIA RTX 4060 e até 9 horas de bateria."
+  },
+  {
+    "id": 81,
+    "nome": "Prisma Campus 14 (8 GB, SSD 256 GB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 284990,
+    "estoque": 21,
+    "atributos": {
+      "processador": "AMD Ryzen 3",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 256 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 7 horas",
+      "perfil": "estudo",
+      "destaque": "webcam HD e teclado numérico"
+    },
+    "descricao": "Notebook compacto e leve com processador AMD Ryzen 3, 8 GB de memória e SSD 256 GB, indicado para estudo e trabalhos escolares. Tela 14 polegadas, webcam HD, teclado numérico e bateria até 7 horas."
+  },
+  {
+    "id": 82,
+    "nome": "Prisma Campus 14 (8 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 341990,
+    "estoque": 17,
+    "atributos": {
+      "processador": "AMD Ryzen 3",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "14 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 7 horas",
+      "perfil": "estudo",
+      "destaque": "webcam HD e teclado numérico"
+    },
+    "descricao": "Notebook leve e portátil ideal para estudo e tarefas do dia a dia. Com processador AMD Ryzen 3, 8 GB de memória, SSD de 512 GB e tela de 14 polegadas. Bateria de até 7 horas, webcam HD e teclado numérico para facilitar seus estudos."
+  },
+  {
+    "id": 83,
+    "nome": "Prisma Work 15 (8 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 338990,
+    "estoque": 1,
+    "atributos": {
+      "processador": "AMD Ryzen 5",
+      "memória": "8 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "15,6 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 11 horas",
+      "perfil": "trabalho",
+      "destaque": "leitor de digital e webcam Full HD"
+    },
+    "descricao": "Notebook versátil indicado para trabalho profissional e produtividade. Processador AMD Ryzen 5, 8 GB de memória, SSD de 512 GB e tela de 15,6 polegadas. Bateria durável de até 11 horas, leitor de digital e webcam Full HD para videoconferências."
+  },
+  {
+    "id": 84,
+    "nome": "Prisma Work 15 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 406990,
+    "estoque": 0,
+    "atributos": {
+      "processador": "AMD Ryzen 5",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "15,6 polegadas",
+      "peso": "1,8 kg",
+      "bateria": "até 11 horas",
+      "perfil": "trabalho",
+      "destaque": "leitor de digital e webcam Full HD"
+    },
+    "descricao": "Notebook potente para trabalho intensivo e multitarefa. Com processador AMD Ryzen 5, 16 GB de memória, SSD de 512 GB e tela de 15,6 polegadas. Bateria de até 11 horas, leitor de digital e webcam Full HD para chamadas profissionais."
+  },
+  {
+    "id": 85,
+    "nome": "Prisma Zero 13 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 496990,
+    "estoque": 30,
+    "atributos": {
+      "processador": "AMD Ryzen 7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "integrada",
+      "tela": "13,3 polegadas",
+      "peso": "1,0 kg",
+      "bateria": "até 15 horas",
+      "perfil": "leve",
+      "destaque": "carcaça de alumínio com menos de 1,5 cm de espessura"
+    },
+    "descricao": "Notebook ultraleve com 1 kg ideal para trabalho, estudo e viagens. AMD Ryzen 7, 16 GB de memória, SSD 512 GB e tela de 13,3 polegadas. Bateria de até 15 horas e carcaça de alumínio ultra fina para máxima portabilidade."
+  },
+  {
+    "id": 86,
+    "nome": "Prisma Zero 13 (16 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 595990,
+    "estoque": 42,
+    "atributos": {
+      "processador": "AMD Ryzen 7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "integrada",
+      "tela": "13,3 polegadas",
+      "peso": "1,0 kg",
+      "bateria": "até 15 horas",
+      "perfil": "leve",
+      "destaque": "carcaça de alumínio com menos de 1,5 cm de espessura"
+    },
+    "descricao": "Notebook ultraleve com 1 kg perfeito para trabalho, estudo e viagens. AMD Ryzen 7, 16 GB de memória, SSD 1 TB e tela de 13,3 polegadas. Bateria de até 15 horas e carcaça de alumínio ultra fina para mobilidade."
+  },
+  {
+    "id": 87,
+    "nome": "Prisma Strike 16 (16 GB, SSD 512 GB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 813990,
+    "estoque": 39,
+    "atributos": {
+      "processador": "Intel Core i7",
+      "memória": "16 GB",
+      "armazenamento": "SSD de 512 GB",
+      "placa de vídeo": "NVIDIA RTX 4050",
+      "tela": "16 polegadas",
+      "peso": "2,6 kg",
+      "bateria": "até 5 horas",
+      "perfil": "jogos",
+      "destaque": "tela de 165 Hz e teclado com iluminação RGB"
+    },
+    "descricao": "Notebook gamer de 16 polegadas com Intel Core i7 e placa NVIDIA RTX 4050 para jogos de alta performance. 16 GB de memória, SSD 512 GB, tela 165 Hz com teclado RGB iluminado para experiência imersiva."
+  },
+  {
+    "id": 88,
+    "nome": "Prisma Strike 16 (32 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 976990,
+    "estoque": 44,
+    "atributos": {
+      "processador": "Intel Core i7",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "2,6 kg",
+      "bateria": "até 5 horas",
+      "perfil": "jogos",
+      "destaque": "tela de 165 Hz e teclado com iluminação RGB"
+    },
+    "descricao": "Notebook potente para jogos com processador Intel Core i7, placa NVIDIA RTX 4060, 32 GB de memória e SSD de 1 TB. Tela de 16 polegadas com 165 Hz garante experiência imersiva. Perfeito para gamers que buscam desempenho máximo em títulos exigentes."
+  },
+  {
+    "id": 89,
+    "nome": "Prisma Vision 16 (32 GB, SSD 1 TB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 1150990,
+    "estoque": 17,
+    "atributos": {
+      "processador": "AMD Ryzen 9",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 1 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "2,1 kg",
+      "bateria": "até 10 horas",
+      "perfil": "criação",
+      "destaque": "tela 2.5K com cores calibradas para foto e vídeo"
+    },
+    "descricao": "Notebook ideal para criação de conteúdo com processador AMD Ryzen 9, tela 2.5K calibrada para foto e vídeo, 32 GB de memória e SSD de 1 TB. Leve e com até 10 horas de bateria, é perfeito para fotógrafos, videomakers e designers em movimento."
+  },
+  {
+    "id": 90,
+    "nome": "Prisma Vision 16 (32 GB, SSD 2 TB)",
+    "categoria": "notebooks",
+    "marca": "Prisma",
+    "preco": 1380990,
+    "estoque": 53,
+    "atributos": {
+      "processador": "AMD Ryzen 9",
+      "memória": "32 GB",
+      "armazenamento": "SSD de 2 TB",
+      "placa de vídeo": "NVIDIA RTX 4060",
+      "tela": "16 polegadas",
+      "peso": "2,1 kg",
+      "bateria": "até 10 horas",
+      "perfil": "criação",
+      "destaque": "tela 2.5K com cores calibradas para foto e vídeo"
+    },
+    "descricao": "Notebook para criação profissional com processador AMD Ryzen 9, tela 2.5K calibrada para foto e vídeo, 32 GB de memória e SSD de 2 TB. Leve com até 10 horas de bateria, oferece armazenamento amplo para fotógrafos e videomakers."
+  },
+  {
+    "id": 91,
+    "nome": "Fone Pulse Buds",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 14990,
+    "estoque": 28,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "5 h (até 24 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Fone sem fio com Bluetooth 5.3, ideal para chamadas, música e trabalho. Bateria de até 24 horas com estojo, resistente a suor e respingos, com microfone integrado e encaixe confortável."
+  },
+  {
+    "id": 92,
+    "nome": "Fone Pulse Buds ANC",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 71990,
+    "estoque": 50,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com modo ambiente",
+      "bateria": "5 h (até 24 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Fone sem fio com cancelamento de ruído ativo e modo ambiente, perfeito para trabalho, estudo e chamadas. Bluetooth 5.3, bateria de até 24 horas com estojo, resistente a suor e respingos com microfone."
+  },
+  {
+    "id": 93,
+    "nome": "Fone Pulse Run",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 33990,
+    "estoque": 58,
+    "atributos": {
+      "tipo": "intra-auricular esportivo sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "9 h",
+      "resistência": "IP55 (suor e chuva)",
+      "encaixe": "ganchos de orelha que seguram o fone no lugar",
+      "microfone": "sim"
+    },
+    "descricao": "Fone esportivo sem fio com Bluetooth 5.3, indicado para corrida, academia e treinos intensos. Bateria de 9 horas, resistência à chuva e suor, ganchos de orelha seguros e microfone integrado."
+  },
+  {
+    "id": 94,
+    "nome": "Fone Pulse Bone",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 45990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "condução óssea sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "10 h",
+      "resistência": "IP67 (suor, chuva e mergulho rápido)",
+      "encaixe": "arco atrás da nuca, deixa o ouvido livre para ouvir a rua"
+    },
+    "descricao": "Ideal para corrida, academia e atividades ao ar livre. Usa condução óssea sem fio via Bluetooth 5.3, deixando os ouvidos livres para ouvir a rua. Resistente a suor, chuva e mergulho rápido. Bateria de 10 horas."
+  },
+  {
+    "id": 95,
+    "nome": "Fone Pulse Max",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 91990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com 3 níveis",
+      "bateria": "50 h",
+      "encaixe": "almofadas de espuma com memória",
+      "dobrável": "sim, com estojo de viagem"
+    },
+    "descricao": "Perfeito para trabalho, estudos e viagens longas. Over-ear sem fio com Bluetooth 5.3 e cancelamento ativo de ruído em 3 níveis. Almofadas de memória, dobrável com estojo. Bateria de 50 horas."
+  },
+  {
+    "id": 96,
+    "nome": "Fone Pulse Wave",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 20990,
+    "estoque": 23,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "50 h",
+      "graves": "reforçados"
+    },
+    "descricao": "Excelente para jogos, música e maratonas de séries. Over-ear sem fio com Bluetooth 5.3, graves reforçados e bateria de 50 horas. Som envolvente para diversão em casa ou viagens."
+  },
+  {
+    "id": 97,
+    "nome": "Fone Pulse Fold",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 16990,
+    "estoque": 15,
+    "atributos": {
+      "tipo": "on-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "40 h",
+      "dobrável": "sim",
+      "peso": "150 g"
+    },
+    "descricao": "Fone sem fio dobrável ideal para música, podcasts e chamadas durante trabalho e viagem. Conecta via Bluetooth 5.3, pesa apenas 150g e oferece até 40 horas de bateria para uso contínuo sem preocupações."
+  },
+  {
+    "id": 98,
+    "nome": "Fone Pulse Lite",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 7890,
+    "estoque": 44,
+    "atributos": {
+      "tipo": "intra-auricular com fio",
+      "conexão": "USB-C",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, com botão de atender",
+      "cabo": "1,2 m"
+    },
+    "descricao": "Fone com fio conectado por USB-C perfeito para estudo, trabalho e chamadas. Inclui pontas de silicone em 3 tamanhos para melhor ajuste, microfone com botão de atender e cabo de 1,2m para mobilidade."
+  },
+  {
+    "id": 99,
+    "nome": "Headset Pulse Arena",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 66990,
+    "estoque": 2,
+    "atributos": {
+      "tipo": "headset gamer over-ear",
+      "conexão": "USB com fio",
+      "som": "surround 7.1 virtual",
+      "microfone": "removível, com redução de ruído",
+      "iluminação": "RGB"
+    },
+    "descricao": "Headset gamer com som surround 7.1 virtual e iluminação RGB para jogos imersivos e streaming. Microfone removível com redução de ruído, conexão USB com fio estável e design over-ear confortável."
+  },
+  {
+    "id": 100,
+    "nome": "Fone Pulse Flex",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 13990,
+    "estoque": 9,
+    "atributos": {
+      "tipo": "sem fio com cordão no pescoço",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "15 h",
+      "resistência": "IPX5 (suor)",
+      "encaixe": "fones magnéticos que se prendem um no outro"
+    },
+    "descricao": "Ideal para academia, corrida e treino. Fone sem fio com Bluetooth 5.3, bateria de 15 horas, fones magnéticos que se prendem e resistência a suor IPX5. Perfeito para quem busca praticidade e durabilidade nos exercícios."
+  },
+  {
+    "id": 101,
+    "nome": "Fone Pulse Kids",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 16990,
+    "estoque": 42,
+    "atributos": {
+      "tipo": "on-ear infantil com fio",
+      "conexão": "P2 3,5 mm",
+      "volume": "limitado a 85 dB para proteger a audição",
+      "material": "silicone flexível e resistente"
+    },
+    "descricao": "Fone infantil on-ear com fio P2, feito em silicone flexível e resistente. Volume limitado a 85 dB para proteger a audição das crianças. Indicado para estudo, diversão e aprendizado com segurança auditiva."
+  },
+  {
+    "id": 102,
+    "nome": "Fone Pulse Studio",
+    "categoria": "fones",
+    "marca": "Pulse",
+    "preco": 70990,
+    "estoque": 48,
+    "atributos": {
+      "tipo": "over-ear de estúdio com fio",
+      "conexão": "P2 3,5 mm com adaptador P10",
+      "som": "resposta plana, para mixagem e gravação",
+      "cabo": "3 m"
+    },
+    "descricao": "Essencial para trabalho em estúdio, mixagem e gravação profissional. Fone over-ear com fio P2, adaptador P10, cabo de 3 metros e resposta plana de som. Recomendado para produção musical e audio design."
+  },
+  {
+    "id": 103,
+    "nome": "Fone Sonora Air",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 19990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "5 h (até 24 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Perfeito para chamadas, músicas e exercícios. Fone sem fio com Bluetooth 5.3, microfone integrado e proteção contra suor e respingos. Bateria de 5 horas, extensível até 24 horas com o estojo."
+  },
+  {
+    "id": 104,
+    "nome": "Fone Sonora Air Pro",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 32990,
+    "estoque": 33,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com modo ambiente",
+      "bateria": "5 h (até 28 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Ideal para trabalho, chamadas e lazer com som imersivo. Fone sem fio com cancelamento ativo de ruído, modo ambiente, Bluetooth 5.3 e microfone. Resistente a suor e respingos, até 28 horas com estojo."
+  },
+  {
+    "id": 105,
+    "nome": "Fone Sonora Sprint",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 37990,
+    "estoque": 24,
+    "atributos": {
+      "tipo": "intra-auricular esportivo sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "9 h",
+      "resistência": "IP55 (suor e chuva)",
+      "encaixe": "ganchos de orelha que seguram o fone no lugar",
+      "microfone": "sim"
+    },
+    "descricao": "Feito para academia, corrida e treinos intensos. Fone esportivo com encaixe seguro, resistência à chuva e suor, Bluetooth 5.3 e bateria de 9 horas. Microfone para chamadas durante o exercício."
+  },
+  {
+    "id": 106,
+    "nome": "Fone Sonora Osso",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 53990,
+    "estoque": 23,
+    "atributos": {
+      "tipo": "condução óssea sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "9 h",
+      "resistência": "IP67 (suor, chuva e mergulho rápido)",
+      "encaixe": "arco atrás da nuca, deixa o ouvido livre para ouvir a rua"
+    },
+    "descricao": "Ideal para corrida, academia e esportes ao ar livre. Condução óssea deixa seus ouvidos livres para ouvir a rua. Sem fio via Bluetooth 5.3, resiste a suor, chuva e mergulho rápido. Bateria de 9 horas."
+  },
+  {
+    "id": 107,
+    "nome": "Fone Sonora Silence",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 168990,
+    "estoque": 51,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com 3 níveis",
+      "bateria": "50 h",
+      "encaixe": "almofadas de espuma com memória",
+      "dobrável": "sim, com estojo de viagem"
+    },
+    "descricao": "Perfeito para trabalho, estudo e viagens longas. Over-ear confortável com cancelamento ativo de ruído em 3 níveis. Bluetooth 5.3, bateria de 50 horas e dobrável com estojo. Almofadas de espuma com memória."
+  },
+  {
+    "id": 108,
+    "nome": "Fone Sonora Home",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 25990,
+    "estoque": 10,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "50 h",
+      "graves": "reforçados"
+    },
+    "descricao": "Excelente para música, filmes e jogos em casa. Over-ear sem fio com graves reforçados. Bluetooth 5.3 e bateria impressionante de 50 horas de autonomia."
+  },
+  {
+    "id": 109,
+    "nome": "Fone Sonora City",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 26990,
+    "estoque": 45,
+    "atributos": {
+      "tipo": "on-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "40 h",
+      "dobrável": "sim",
+      "peso": "150 g"
+    },
+    "descricao": "Perfeito para música, podcasts e chamadas em movimento. Fone sem fio leve e dobrável com Bluetooth 5.3, bateria de 40 horas e design on-ear confortável para uso contínuo durante trabalho, viagem e lazer."
+  },
+  {
+    "id": 110,
+    "nome": "Fone Sonora Fio",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 4390,
+    "estoque": 47,
+    "atributos": {
+      "tipo": "intra-auricular com fio",
+      "conexão": "P2 3,5 mm",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, com botão de atender",
+      "cabo": "1,2 m"
+    },
+    "descricao": "Ideal para chamadas, estudo e uso diário com som de qualidade. Fone intra-auricular com fio, conector P2, microfone integrado para atender chamadas e pontas de silicone ajustáveis para conforto garantido."
+  },
+  {
+    "id": 111,
+    "nome": "Headset Sonora Clash",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 79990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "headset gamer over-ear",
+      "conexão": "USB com fio",
+      "som": "surround 7.1 virtual",
+      "microfone": "removível, com redução de ruído",
+      "iluminação": "RGB"
+    },
+    "descricao": "Feito para jogos imersivos com som surround 7.1 virtual. Headset over-ear com microfone removível e redução de ruído, iluminação RGB e conexão USB, proporcionando experiência de áudio profissional para gaming."
+  },
+  {
+    "id": 112,
+    "nome": "Fone Sonora Neck",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 15990,
+    "estoque": 25,
+    "atributos": {
+      "tipo": "sem fio com cordão no pescoço",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "20 h",
+      "resistência": "IPX5 (suor)",
+      "encaixe": "fones magnéticos que se prendem um no outro"
+    },
+    "descricao": "Sem fio com Bluetooth 5.3 e cordão no pescoço, ideal para academia, corrida e treinos. Bateria de 20 horas, resistente a suor e fones magnéticos que se prendem um no outro para praticidade."
+  },
+  {
+    "id": 113,
+    "nome": "Fone Sonora Mini",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 14990,
+    "estoque": 7,
+    "atributos": {
+      "tipo": "on-ear infantil com fio",
+      "conexão": "P2 3,5 mm",
+      "volume": "limitado a 85 dB para proteger a audição",
+      "material": "silicone flexível e resistente"
+    },
+    "descricao": "On-ear infantil com fio e conexão P2, perfeito para estudo e brincadeiras. Volume limitado a 85 dB para proteger a audição das crianças, com material de silicone flexível e resistente."
+  },
+  {
+    "id": 114,
+    "nome": "Fone Sonora Monitor",
+    "categoria": "fones",
+    "marca": "Sonora",
+    "preco": 105990,
+    "estoque": 17,
+    "atributos": {
+      "tipo": "over-ear de estúdio com fio",
+      "conexão": "P2 3,5 mm com adaptador P10",
+      "som": "resposta plana, para mixagem e gravação",
+      "cabo": "3 m"
+    },
+    "descricao": "Over-ear de estúdio com fio P2 e adaptador P10, essencial para produção musical, mixagem e gravação. Resposta plana para monitoramento preciso com cabo de 3 metros."
+  },
+  {
+    "id": 115,
+    "nome": "Fone Bassi Drop",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 20990,
+    "estoque": 13,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "5 h (até 24 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Ideal para trabalho e estudo, este intra-auricular sem fio oferece conexão Bluetooth 5.3, bateria de até 24 horas com estojo e resistência a suor e respingos. Microfone integrado para chamadas e encaixe confortável com pontas de silicone."
+  },
+  {
+    "id": 116,
+    "nome": "Fone Bassi Drop NC",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 47990,
+    "estoque": 9,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com modo ambiente",
+      "bateria": "6 h (até 20 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Perfeito para trabalho, estudo e uso diário, este intra-auricular sem fio traz cancelamento ativo de ruído com modo ambiente, conexão Bluetooth 5.3 e bateria de até 20 horas com estojo. Resistente a suor e respingos, com microfone para chamadas."
+  },
+  {
+    "id": 117,
+    "nome": "Fone Bassi Fit",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 38990,
+    "estoque": 55,
+    "atributos": {
+      "tipo": "intra-auricular esportivo sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "9 h",
+      "resistência": "IP55 (suor e chuva)",
+      "encaixe": "ganchos de orelha que seguram o fone no lugar",
+      "microfone": "sim"
+    },
+    "descricao": "Excelente para academia, corrida e esportes, este intra-auricular esportivo sem fio oferece bateria de 9 horas, resistência à chuva e suor, ganchos de orelha que fixam o fone e microfone integrado. Conexão Bluetooth 5.3 estável."
+  },
+  {
+    "id": 118,
+    "nome": "Fone Bassi Open",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 86990,
+    "estoque": 50,
+    "atributos": {
+      "tipo": "condução óssea sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "10 h",
+      "resistência": "IP67 (suor, chuva e mergulho rápido)",
+      "encaixe": "arco atrás da nuca, deixa o ouvido livre para ouvir a rua"
+    },
+    "descricao": "Perfeito para corrida, trilha e atividades ao ar livre. Condução óssea mantém as orelhas livres para ouvir a rua. Bluetooth 5.3, bateria de 10 horas e resistência IP67 para suor, chuva e mergulhos rápidos."
+  },
+  {
+    "id": 119,
+    "nome": "Fone Bassi Deep",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 162990,
+    "estoque": 35,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com 3 níveis",
+      "bateria": "30 h",
+      "encaixe": "almofadas de espuma com memória",
+      "dobrável": "sim, com estojo de viagem"
+    },
+    "descricao": "Ideal para trabalho, estudo e viagens com conforto prolongado. Over-ear com almofadas de espuma com memória, cancelamento ativo de ruído em 3 níveis e bateria de 30 horas. Dobrável com estojo incluído."
+  },
+  {
+    "id": 120,
+    "nome": "Fone Bassi Groove",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 46990,
+    "estoque": 57,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "40 h",
+      "graves": "reforçados"
+    },
+    "descricao": "Excelente para músicas, filmes e jogos com graves reforçados. Over-ear sem fio com Bluetooth 5.3 e impressionante bateria de 40 horas para uso contínuo e confortável."
+  },
+  {
+    "id": 121,
+    "nome": "Fone Bassi Street",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 26990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "on-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "40 h",
+      "dobrável": "sim",
+      "peso": "150 g"
+    },
+    "descricao": "Perfeito para música, podcasts e chamadas durante viagens e trabalho. Oferece autonomia de até 40 horas e design compacto dobrável para portabilidade. Conecta via Bluetooth 5.3 com leve e confortável encaixe on-ear."
+  },
+  {
+    "id": 122,
+    "nome": "Fone Bassi Basic",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 7490,
+    "estoque": 7,
+    "atributos": {
+      "tipo": "intra-auricular com fio",
+      "conexão": "P2 3,5 mm",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, com botão de atender",
+      "cabo": "1,2 m"
+    },
+    "descricao": "Ideal para chamadas, estudo e uso diário com conexão P2. Acompanha pontas de silicone em três tamanhos para melhor encaixe e conforto. Inclui microfone com botão de atender para chamadas rápidas e práticas."
+  },
+  {
+    "id": 123,
+    "nome": "Headset Bassi Raid",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 71990,
+    "estoque": 25,
+    "atributos": {
+      "tipo": "headset gamer over-ear",
+      "conexão": "USB com fio",
+      "som": "surround 7.1 virtual",
+      "microfone": "removível, com redução de ruído",
+      "iluminação": "RGB"
+    },
+    "descricao": "Desenvolvido para jogos com som surround 7.1 virtual imersivo. Conta com microfone removível com redução de ruído para comunicação clara, iluminação RGB personalizável e conforto prolongado em sessões intensas."
+  },
+  {
+    "id": 124,
+    "nome": "Fone Bassi Loop",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 15990,
+    "estoque": 59,
+    "atributos": {
+      "tipo": "sem fio com cordão no pescoço",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "19 h",
+      "resistência": "IPX5 (suor)",
+      "encaixe": "fones magnéticos que se prendem um no outro"
+    },
+    "descricao": "Sem fio com cordão no pescoço e fones magnéticos, ideal para Academia e corrida. Bluetooth 5.3, bateria de 19 horas e resistência IPX5 contra suor garantem uso contínuo em treinos e atividades do dia a dia."
+  },
+  {
+    "id": 125,
+    "nome": "Fone Bassi Junior",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 13990,
+    "estoque": 44,
+    "atributos": {
+      "tipo": "on-ear infantil com fio",
+      "conexão": "P2 3,5 mm",
+      "volume": "limitado a 85 dB para proteger a audição",
+      "material": "silicone flexível e resistente"
+    },
+    "descricao": "On-ear infantil com fio e conector P2, perfeito para crianças em aula, estudo e diversão. Silicone flexível se adapta confortavelmente, enquanto o volume limitado a 85 dB protege a audição dos pequenos usuários."
+  },
+  {
+    "id": 126,
+    "nome": "Fone Bassi Mix",
+    "categoria": "fones",
+    "marca": "Bassi",
+    "preco": 70990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "over-ear de estúdio com fio",
+      "conexão": "P2 3,5 mm com adaptador P10",
+      "som": "resposta plana, para mixagem e gravação",
+      "cabo": "3 m"
+    },
+    "descricao": "Over-ear de estúdio com fio e cabo de 3 metros, indispensável para trabalho em gravação e mixagem profissional. Resposta plana proporciona som preciso para edição de áudio, produção musical e trabalhos técnicos de áudio."
+  },
+  {
+    "id": 127,
+    "nome": "Fone Ondah Go",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 21990,
+    "estoque": 43,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "5 h (até 20 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Intra-auricular sem fio ideal para academias, corridas e viagens. Bluetooth 5.3, resistente a suor e respingos, bateria de 5 horas e mais 20 com estojo. Microfone integrado para chamadas."
+  },
+  {
+    "id": 128,
+    "nome": "Fone Ondah Go Pro",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 48990,
+    "estoque": 22,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com modo ambiente",
+      "bateria": "6 h (até 28 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Intra-auricular sem fio premium para trabalho, estudos e entretenimento. Bluetooth 5.3, cancelamento ativo de ruído com modo ambiente, bateria de 6 horas e mais 22 com estojo. Microfone para chamadas."
+  },
+  {
+    "id": 129,
+    "nome": "Fone Ondah Trail",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 30990,
+    "estoque": 21,
+    "atributos": {
+      "tipo": "intra-auricular esportivo sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "9 h",
+      "resistência": "IP55 (suor e chuva)",
+      "encaixe": "ganchos de orelha que seguram o fone no lugar",
+      "microfone": "sim"
+    },
+    "descricao": "Fone esportivo ideal para corridas em trilhas e treinos intensos. Bluetooth 5.3, ganchos de orelha para segurança, resistência à chuva e suor, bateria de 9 horas. Microfone integrado."
+  },
+  {
+    "id": 130,
+    "nome": "Fone Ondah Livre",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 46990,
+    "estoque": 23,
+    "atributos": {
+      "tipo": "condução óssea sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "10 h",
+      "resistência": "IP67 (suor, chuva e mergulho rápido)",
+      "encaixe": "arco atrás da nuca, deixa o ouvido livre para ouvir a rua"
+    },
+    "descricao": "Perfeito para corrida, academia e atividades ao ar livre. Condução óssea deixa o ouvido livre para ouvir a rua. Sem fio com Bluetooth 5.3, bateria de 10 horas e resistência IP67 para suor, chuva e mergulho rápido."
+  },
+  {
+    "id": 131,
+    "nome": "Fone Ondah Calm",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 138990,
+    "estoque": 48,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com 3 níveis",
+      "bateria": "40 h",
+      "encaixe": "almofadas de espuma com memória",
+      "dobrável": "sim, com estojo de viagem"
+    },
+    "descricao": "Ideal para trabalho, estudo e viagens longas. Over-ear com cancelamento de ruído ativo em 3 níveis. Bateria de 40 horas, almofadas de espuma com memória e dobrável com estojo de viagem incluído."
+  },
+  {
+    "id": 132,
+    "nome": "Fone Ondah Waves",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 32990,
+    "estoque": 8,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "50 h",
+      "graves": "reforçados"
+    },
+    "descricao": "Excelente para sessões de música, jogos e entretenimento em casa. Over-ear com graves reforçados e bateria impressionante de 50 horas. Conexão Bluetooth 5.3 para liberdade total de movimento."
+  },
+  {
+    "id": 133,
+    "nome": "Fone Ondah Pocket",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 16990,
+    "estoque": 18,
+    "atributos": {
+      "tipo": "on-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "25 h",
+      "dobrável": "sim",
+      "peso": "170 g"
+    },
+    "descricao": "Ideal para música, podcasts e chamadas em movimento. Fone sem fio com Bluetooth 5.3, design dobrável e leve, bateria de 25 horas para uso prolongado durante viagens, trabalho e lazer."
+  },
+  {
+    "id": 134,
+    "nome": "Fone Ondah Cabo",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 8490,
+    "estoque": 37,
+    "atributos": {
+      "tipo": "intra-auricular com fio",
+      "conexão": "USB-C",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, com botão de atender",
+      "cabo": "1,2 m"
+    },
+    "descricao": "Perfeito para estudo, trabalho e chamadas. Fone intra-auricular com fio USB-C, pontas de silicone ajustáveis e microfone integrado com botão de atender para máxima comodidade."
+  },
+  {
+    "id": 135,
+    "nome": "Headset Ondah Squad",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 43990,
+    "estoque": 22,
+    "atributos": {
+      "tipo": "headset gamer over-ear",
+      "conexão": "USB com fio",
+      "som": "surround 7.1 virtual",
+      "microfone": "removível, com redução de ruído",
+      "iluminação": "RGB"
+    },
+    "descricao": "Essencial para jogos e streams. Headset gamer com som surround 7.1 virtual, microfone removível com redução de ruído e iluminação RGB para experiência imersiva durante longas sessões."
+  },
+  {
+    "id": 136,
+    "nome": "Fone Ondah Band",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 10990,
+    "estoque": 32,
+    "atributos": {
+      "tipo": "sem fio com cordão no pescoço",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "20 h",
+      "resistência": "IPX5 (suor)",
+      "encaixe": "fones magnéticos que se prendem um no outro"
+    },
+    "descricao": "Perfeito para academia, corrida e treinos. Sem fio com Bluetooth 5.3, bateria de 20 horas e resistência ao suor. Fones magnéticos que se prendem um no outro, ideal para atividades físicas e uso contínuo."
+  },
+  {
+    "id": 137,
+    "nome": "Fone Ondah Turma",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 15990,
+    "estoque": 28,
+    "atributos": {
+      "tipo": "on-ear infantil com fio",
+      "conexão": "P2 3,5 mm",
+      "volume": "limitado a 85 dB para proteger a audição",
+      "material": "silicone flexível e resistente"
+    },
+    "descricao": "Indicado para crianças ouvindo músicas, audiobooks e aulas. On-ear com fio, conexão P2 3,5 mm e volume limitado a 85 dB para proteger a audição. Material em silicone flexível e resistente."
+  },
+  {
+    "id": 138,
+    "nome": "Fone Ondah Lab",
+    "categoria": "fones",
+    "marca": "Ondah",
+    "preco": 69990,
+    "estoque": 47,
+    "atributos": {
+      "tipo": "over-ear de estúdio com fio",
+      "conexão": "P2 3,5 mm com adaptador P10",
+      "som": "resposta plana, para mixagem e gravação",
+      "cabo": "3 m"
+    },
+    "descricao": "Ideal para estúdio, mixagem e gravação profissional. Over-ear com fio, conexão P2 3,5 mm e adaptador P10, resposta plana para qualidade de som e precisão. Cabo com 3 metros de comprimento."
+  },
+  {
+    "id": 139,
+    "nome": "Fone Vibra One",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 13990,
+    "estoque": 9,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "6 h (até 28 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Intra-auricular sem fio com Bluetooth 5.3 ideal para chamadas e uso cotidiano. Bateria de até 28 horas com estojo, resistente a suor e respingos. Pontas de silicone ajustáveis e microfone integrado para conversas claras."
+  },
+  {
+    "id": 140,
+    "nome": "Fone Vibra One NC",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 68990,
+    "estoque": 50,
+    "atributos": {
+      "tipo": "intra-auricular sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com modo ambiente",
+      "bateria": "6 h (até 24 h com o estojo)",
+      "resistência": "IPX4 (suor e respingos)",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, para chamadas"
+    },
+    "descricao": "Intra-auricular sem fio com cancelamento ativo de ruído e modo ambiente, perfeito para trabalho e chamadas. Bluetooth 5.3, bateria de até 24 horas com estojo, resistente a suor e respingos, com microfone integrado."
+  },
+  {
+    "id": 141,
+    "nome": "Fone Vibra Gym",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 22990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "intra-auricular esportivo sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "8 h",
+      "resistência": "IP55 (suor e chuva)",
+      "encaixe": "ganchos de orelha que seguram o fone no lugar",
+      "microfone": "sim"
+    },
+    "descricao": "Fone esportivo intra-auricular sem fio com ganchos de orelha seguros, ideal para academia e corrida. Bluetooth 5.3, bateria de 8 horas e resistência superior à chuva e suor intenso. Microfone para chamadas durante exercícios."
+  },
+  {
+    "id": 142,
+    "nome": "Fone Vibra Bone Air",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 70990,
+    "estoque": 21,
+    "atributos": {
+      "tipo": "condução óssea sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "9 h",
+      "resistência": "IP67 (suor, chuva e mergulho rápido)",
+      "encaixe": "arco atrás da nuca, deixa o ouvido livre para ouvir a rua"
+    },
+    "descricao": "Fone com condução óssea sem fio ideal para corrida, academia e atividades ao ar livre. Deixa o ouvido livre para ouvir a rua. Resiste a suor, chuva e mergulho rápido com Bluetooth 5.3 e bateria de 9 horas."
+  },
+  {
+    "id": 143,
+    "nome": "Fone Vibra Quiet",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 162990,
+    "estoque": 24,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "ativo, com 3 níveis",
+      "bateria": "40 h",
+      "encaixe": "almofadas de espuma com memória",
+      "dobrável": "sim, com estojo de viagem"
+    },
+    "descricao": "Fone para estudo, trabalho e viagens longas com cancelamento ativo de ruído em 3 níveis. Oferece conforto com almofadas de espuma com memória, bateria de 40 horas e vem com estojo de viagem prático e dobrável."
+  },
+  {
+    "id": 144,
+    "nome": "Fone Vibra Bass",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 35990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "over-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "cancelamento de ruído": "não",
+      "bateria": "50 h",
+      "graves": "reforçados"
+    },
+    "descricao": "Fone perfeito para músicas e jogos com graves reforçados e bateria de 50 horas. Sem cancelamento de ruído, ideal para uso prolongado em casa ou deslocamentos com Bluetooth 5.3 de longo alcance."
+  },
+  {
+    "id": 145,
+    "nome": "Fone Vibra Daily",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 28990,
+    "estoque": 14,
+    "atributos": {
+      "tipo": "on-ear sem fio",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "25 h",
+      "dobrável": "sim",
+      "peso": "170 g"
+    },
+    "descricao": "Ideal para música, podcast e chamadas no dia a dia. Oferece até 25 horas de bateria, conexão Bluetooth 5.3 estável e design dobrável leve. Perfeito para trabalho, estudo e viagens com conforto on-ear."
+  },
+  {
+    "id": 146,
+    "nome": "Fone Vibra Wire",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 5790,
+    "estoque": 46,
+    "atributos": {
+      "tipo": "intra-auricular com fio",
+      "conexão": "P2 3,5 mm",
+      "encaixe": "pontas de silicone em 3 tamanhos",
+      "microfone": "sim, com botão de atender",
+      "cabo": "1,2 m"
+    },
+    "descricao": "Indicado para chamadas, música e estudo com qualidade de som. Conexão P2 direta, microfone com botão de atender, pontas de silicone ajustáveis e cabo de 1,2 m. Prático para uso cotidiano e trabalho."
+  },
+  {
+    "id": 147,
+    "nome": "Headset Vibra Battle",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 25990,
+    "estoque": 27,
+    "atributos": {
+      "tipo": "headset gamer over-ear",
+      "conexão": "sem fio 2,4 GHz e Bluetooth",
+      "som": "surround 7.1 virtual",
+      "microfone": "removível, com redução de ruído",
+      "iluminação": "RGB"
+    },
+    "descricao": "Perfeito para jogos competitivos e livestream. Headset gamer com som surround 7.1 virtual, conexão sem fio 2,4 GHz e Bluetooth, microfone removível com redução de ruído e iluminação RGB personalizada."
+  },
+  {
+    "id": 148,
+    "nome": "Fone Vibra Sport",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 19990,
+    "estoque": 43,
+    "atributos": {
+      "tipo": "sem fio com cordão no pescoço",
+      "conexão": "Bluetooth 5.3",
+      "bateria": "17 h",
+      "resistência": "IPX5 (suor)",
+      "encaixe": "fones magnéticos que se prendem um no outro"
+    },
+    "descricao": "Perfeito para academia e corrida, este fone sem fio com cordão no pescoço oferece Bluetooth 5.3, bateria de 17 horas e resistência IPX5 ao suor. Os fones magnéticos se prendem um no outro para praticidade."
+  },
+  {
+    "id": 149,
+    "nome": "Fone Vibra Pequeno",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 12990,
+    "estoque": 17,
+    "atributos": {
+      "tipo": "on-ear infantil com fio",
+      "conexão": "P2 3,5 mm",
+      "volume": "limitado a 85 dB para proteger a audição",
+      "material": "silicone flexível e resistente"
+    },
+    "descricao": "Ideal para crianças em estudo e lazer, este fone on-ear infantil com fio apresenta volume limitado a 85 dB para proteger a audição. Feito em silicone flexível e resistente, conecta via P2 3,5 mm."
+  },
+  {
+    "id": 150,
+    "nome": "Fone Vibra Pro Studio",
+    "categoria": "fones",
+    "marca": "Vibra",
+    "preco": 114990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "over-ear de estúdio com fio",
+      "conexão": "P2 3,5 mm com adaptador P10",
+      "som": "resposta plana, para mixagem e gravação",
+      "cabo": "3 m"
+    },
+    "descricao": "Desenvolvido para trabalho em estúdio, mixagem e gravação, este fone over-ear com fio oferece resposta plana e qualidade profissional. Inclui cabo de 3 metros com adaptador P10."
+  },
+  {
+    "id": 151,
+    "nome": "Carregador Volt 20W",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 5990,
+    "estoque": 17,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "20 W",
+      "portas": "1 USB-C",
+      "tecnologia": "convencional",
+      "serve para": "celulares, fones e relógios"
+    },
+    "descricao": "Carregador de tomada com 20W e porta USB-C ideal para celulares, fones e relógios. Perfeito para viagem, trabalho e estudo, oferecendo carregamento convencional prático."
+  },
+  {
+    "id": 152,
+    "nome": "Carregador Volt 30W",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 10990,
+    "estoque": 24,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "30 W",
+      "portas": "1 USB-C",
+      "tecnologia": "convencional",
+      "serve para": "celulares, fones e relógios"
+    },
+    "descricao": "Carregador de tomada com 30W e porta USB-C adequado para celulares, fones e relógios. Excelente para viagem, trabalho e uso diário, com tecnologia convencional confiável."
+  },
+  {
+    "id": 153,
+    "nome": "Carregador Volt 45W",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 13990,
+    "estoque": 26,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "45 W",
+      "portas": "2 USB-C",
+      "tecnologia": "GaN, menor e mais frio",
+      "serve para": "celulares, tablets e notebooks com USB-C"
+    },
+    "descricao": "Carregador de tomada com 45W e duas portas USB-C para celulares, tablets e notebooks. Tecnologia GaN compacta e eficiente, ideal para viagem, trabalho e produtividade."
+  },
+  {
+    "id": 154,
+    "nome": "Carregador Volt 65W",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 19990,
+    "estoque": 53,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "65 W",
+      "portas": "2 USB-C",
+      "tecnologia": "GaN, menor e mais frio",
+      "serve para": "celulares, tablets e notebooks com USB-C"
+    },
+    "descricao": "Carregador compacto e eficiente com 65W para celulares, tablets e notebooks com USB-C. Possui 2 portas USB-C e tecnologia GaN que oferece menor tamanho e menos calor. Ideal para trabalho, viagem e estudo."
+  },
+  {
+    "id": 155,
+    "nome": "Carregador Volt 100W",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 28990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "100 W",
+      "portas": "2 USB-C e 1 USB-A",
+      "tecnologia": "GaN, menor e mais frio",
+      "serve para": "celulares, tablets e notebooks com USB-C"
+    },
+    "descricao": "Carregador versátil com 100W para celulares, tablets e notebooks com USB-C. Possui 2 USB-C e 1 USB-A, permitindo carregar múltiplos dispositivos simultaneamente. Tecnologia GaN garante eficiência térmica. Perfeito para trabalho e viagem."
+  },
+  {
+    "id": 156,
+    "nome": "Carregador Volt 140W",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 41990,
+    "estoque": 44,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "140 W",
+      "portas": "2 USB-C e 1 USB-A",
+      "tecnologia": "GaN, menor e mais frio",
+      "serve para": "celulares, tablets e notebooks com USB-C"
+    },
+    "descricao": "Carregador potente com 140W ideal para notebooks, tablets e celulares com USB-C. Conta com 2 portas USB-C e 1 USB-A para carregar vários dispositivos ao mesmo tempo. Tecnologia GaN oferece design compacto e menos calor. Excelente para trabalho profissional."
+  },
+  {
+    "id": 157,
+    "nome": "Carregador Kora 20W",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 7490,
+    "estoque": 31,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "20 W",
+      "portas": "1 USB-C",
+      "tecnologia": "convencional",
+      "serve para": "celulares, fones e relógios"
+    },
+    "descricao": "Carregador de tomada com porta USB-C de 20W, ideal para carregar celulares, fones e relógios com rapidez. Perfeito para uso diário em casa, trabalho ou viagem."
+  },
+  {
+    "id": 158,
+    "nome": "Carregador Kora 30W",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 9990,
+    "estoque": 34,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "30 W",
+      "portas": "1 USB-C",
+      "tecnologia": "convencional",
+      "serve para": "celulares, fones e relógios"
+    },
+    "descricao": "Carregador de tomada com porta USB-C de 30W, indicado para celulares, fones e relógios que precisam de carga mais rápida. Ótimo para estudo, trabalho e uso cotidiano."
+  },
+  {
+    "id": 159,
+    "nome": "Carregador Kora 45W",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 15990,
+    "estoque": 43,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "45 W",
+      "portas": "2 USB-C",
+      "tecnologia": "GaN, menor e mais frio",
+      "serve para": "celulares, tablets e notebooks com USB-C"
+    },
+    "descricao": "Carregador de tomada com tecnologia GaN de 45W e duas portas USB-C, ideal para carregar simultaneamente celulares, tablets e notebooks. Compacto e eficiente para trabalho, estudo e viagem."
+  },
+  {
+    "id": 160,
+    "nome": "Carregador Kora 65W",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 19990,
+    "estoque": 36,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "65 W",
+      "portas": "2 USB-C",
+      "tecnologia": "GaN, menor e mais frio",
+      "serve para": "celulares, tablets e notebooks com USB-C"
+    },
+    "descricao": "Carregador de tomada com 65W e 2 portas USB-C, ideal para trabalho e estudo. Com tecnologia GaN, oferece tamanho reduzido e melhor dissipação de calor. Compatível com celulares, tablets e notebooks que usam USB-C."
+  },
+  {
+    "id": 161,
+    "nome": "Carregador Kora 100W",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 33990,
+    "estoque": 17,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "100 W",
+      "portas": "2 USB-C e 1 USB-A",
+      "tecnologia": "GaN, menor e mais frio",
+      "serve para": "celulares, tablets e notebooks com USB-C"
+    },
+    "descricao": "Carregador de tomada com 100W, 2 USB-C e 1 USB-A, perfeito para trabalho, estudo e viagem. Tecnologia GaN proporciona design compacto e melhor controle térmico. Carrega celulares, tablets e notebooks simultaneamente."
+  },
+  {
+    "id": 162,
+    "nome": "Carregador Kora 140W",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 44990,
+    "estoque": 34,
+    "atributos": {
+      "tipo": "carregador de tomada",
+      "potência": "140 W",
+      "portas": "2 USB-C e 1 USB-A",
+      "tecnologia": "GaN, menor e mais frio",
+      "serve para": "celulares, tablets e notebooks com USB-C"
+    },
+    "descricao": "Carregador de tomada potente com 140W, 2 USB-C e 1 USB-A, ideal para trabalho e estudo intensivo. Tecnologia GaN garante tamanho menor e menor aquecimento. Carrega múltiplos dispositivos como celulares, tablets e notebooks."
+  },
+  {
+    "id": 163,
+    "nome": "Cabo Volt USB-C para USB-C 1 m",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 4490,
+    "estoque": 7,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-C para USB-C",
+      "comprimento": "1 m",
+      "material": "PVC reforçado",
+      "potência máxima": "100 W"
+    },
+    "descricao": "Conecte seus dispositivos USB-C com segurança em trabalho e carregamento. Com 1 m de comprimento e material PVC reforçado, suporta até 100 W de potência para notebooks, tablets e smartphones."
+  },
+  {
+    "id": 164,
+    "nome": "Cabo Volt USB-C para USB-C 2 m",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 7690,
+    "estoque": 2,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-C para USB-C",
+      "comprimento": "2 m",
+      "material": "PVC reforçado",
+      "potência máxima": "100 W"
+    },
+    "descricao": "Ideal para carregamento e sincronização entre dispositivos USB-C com maior alcance. Com 2 m de comprimento, material PVC reforçado e até 100 W de potência, perfeito para trabalho e uso doméstico."
+  },
+  {
+    "id": 165,
+    "nome": "Cabo Volt USB-C para Lightning 1 m",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 4290,
+    "estoque": 33,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-C para Lightning",
+      "comprimento": "1 m",
+      "material": "PVC reforçado",
+      "potência máxima": "27 W"
+    },
+    "descricao": "Carregue e sincronize seus iPhones e iPads a partir de USB-C com 1 m de alcance. Material PVC reforçado e potência de 27 W, ideal para viagens, trabalho e uso diário com dispositivos Apple."
+  },
+  {
+    "id": 166,
+    "nome": "Cabo Volt USB-C para Lightning 2 m",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 7490,
+    "estoque": 14,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-C para Lightning",
+      "comprimento": "2 m",
+      "material": "PVC reforçado",
+      "potência máxima": "27 W"
+    },
+    "descricao": "Ideal para carregar iPhone e iPad com mais alcance. Conecta USB-C a Lightning, mede 2 metros e suporta até 27 W. Material PVC reforçado para durabilidade em viagens, trabalho e uso diário."
+  },
+  {
+    "id": 167,
+    "nome": "Cabo Volt USB-A para USB-C 1 m",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 5290,
+    "estoque": 56,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-A para USB-C",
+      "comprimento": "1 m",
+      "material": "PVC reforçado",
+      "potência máxima": "15 W"
+    },
+    "descricao": "Perfeito para conectar e carregar dispositivos USB-C em notebooks e computadores. Comprimento de 1 metro com material PVC reforçado, indicado para trabalho, estudo e transferência de dados."
+  },
+  {
+    "id": 168,
+    "nome": "Cabo Volt USB-A para USB-C 2 m",
+    "categoria": "acessorios",
+    "marca": "Volt",
+    "preco": 6990,
+    "estoque": 44,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-A para USB-C",
+      "comprimento": "2 m",
+      "material": "PVC reforçado",
+      "potência máxima": "15 W"
+    },
+    "descricao": "Ideal para maior alcance ao carregar ou transferir dados em USB-C. Com 2 metros de comprimento e material PVC reforçado, perfeito para trabalho, estudo e uso em casa com mobilidade."
+  },
+  {
+    "id": 169,
+    "nome": "Cabo Trama USB-C para USB-C 1 m",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 6890,
+    "estoque": 42,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-C para USB-C",
+      "comprimento": "1 m",
+      "material": "nylon trançado",
+      "potência máxima": "100 W"
+    },
+    "descricao": "Ideal para carregar e transferir dados entre smartphones, tablets e computadores modernos. Construído em nylon trançado resistente, suporta até 100 W de potência. Com 1 m de comprimento, perfeito para uso próximo à tomada ou ao trabalho."
+  },
+  {
+    "id": 170,
+    "nome": "Cabo Trama USB-C para USB-C 2 m",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 7590,
+    "estoque": 35,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-C para USB-C",
+      "comprimento": "2 m",
+      "material": "nylon trançado",
+      "potência máxima": "100 W"
+    },
+    "descricao": "Conecte seus dispositivos USB-C com alcance e durabilidade. O cabo de 2 m em nylon trançado oferece flexibilidade para carregar ou sincronizar dados longe da tomada. Suporta até 100 W, ideal para trabalho, estudo e uso doméstico."
+  },
+  {
+    "id": 171,
+    "nome": "Cabo Trama USB-C para Lightning 1 m",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 4990,
+    "estoque": 46,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-C para Lightning",
+      "comprimento": "1 m",
+      "material": "nylon trançado",
+      "potência máxima": "27 W"
+    },
+    "descricao": "Compatível com iPhones e iPads modernos, este cabo de 1 m em nylon trançado é perfeito para carregamento rápido de dispositivos Apple. Com suporte a até 27 W de potência, ideal para viagem, trabalho e uso cotidiano."
+  },
+  {
+    "id": 172,
+    "nome": "Cabo Trama USB-C para Lightning 2 m",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 9290,
+    "estoque": 9,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-C para Lightning",
+      "comprimento": "2 m",
+      "material": "nylon trançado",
+      "potência máxima": "27 W"
+    },
+    "descricao": "Ideal para carregar iPhone e iPad com rapidez. Cabo resistente em nylon trançado com conectores USB-C para Lightning, 2 metros de comprimento, suporta até 27 W de potência para viagens, trabalho e uso diário."
+  },
+  {
+    "id": 173,
+    "nome": "Cabo Trama USB-A para USB-C 1 m",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 6790,
+    "estoque": 37,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-A para USB-C",
+      "comprimento": "1 m",
+      "material": "nylon trançado",
+      "potência máxima": "15 W"
+    },
+    "descricao": "Perfeito para conectar e carregar celulares e tablets Android. Cabo durável em nylon trançado com conectores USB-A para USB-C, 1 metro, suporta até 15 W. Ideal para escritório, estudo e uso cotidiano."
+  },
+  {
+    "id": 174,
+    "nome": "Cabo Trama USB-A para USB-C 2 m",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 6590,
+    "estoque": 3,
+    "atributos": {
+      "tipo": "cabo",
+      "conectores": "USB-A para USB-C",
+      "comprimento": "2 m",
+      "material": "nylon trançado",
+      "potência máxima": "15 W"
+    },
+    "descricao": "Excelente para ambientes onde você precisa de maior alcance. Cabo em nylon trançado com conectores USB-A para USB-C, 2 metros de comprimento, suporta até 15 W. Indicado para trabalho, viagens e carregamento diário."
+  },
+  {
+    "id": 175,
+    "nome": "Capa de silicone para Aurora X",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 7090,
+    "estoque": 53,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Aurora X (todas as versões de armazenamento)",
+      "material": "silicone macio",
+      "proteção": "protege contra riscos"
+    },
+    "descricao": "Proteção em silicone macio para seu Aurora X. Capa confortável que resguarda o celular contra riscos durante o dia a dia, trabalho e uso cotidiano. Compatível com todas as versões de armazenamento."
+  },
+  {
+    "id": 176,
+    "nome": "Capa antiimpacto para Aurora X Pro",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 6290,
+    "estoque": 35,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Aurora X Pro (todas as versões de armazenamento)",
+      "material": "policarbonato transparente",
+      "proteção": "quinas reforçadas, aguenta quedas de até 2 m"
+    },
+    "descricao": "Capa antiimpacto com quinas reforçadas para Aurora X Pro. Resiste a quedas de até 2 metros, ideal para proteção máxima no trabalho, academia, viagens e uso intenso. Material transparente com policarbonato resistente."
+  },
+  {
+    "id": 177,
+    "nome": "Capa carteira para Aurora Neo",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 9990,
+    "estoque": 11,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Aurora Neo (todas as versões de armazenamento)",
+      "material": "couro sintético com porta-cartões",
+      "proteção": "tampa que protege a tela"
+    },
+    "descricao": "Carteira funcional para Aurora Neo com couro sintético e porta-cartões integrado. Tampa que protege a tela, perfeita para trabalho, estudo e viagens. Compatível com todas as versões de armazenamento do aparelho."
+  },
+  {
+    "id": 178,
+    "nome": "Capa de silicone para Nimbus 7",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 6390,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Nimbus 7 (todas as versões de armazenamento)",
+      "material": "silicone macio",
+      "proteção": "protege contra riscos"
+    },
+    "descricao": "Proteja seu Nimbus 7 contra riscos diários com silicone macio. Ideal para quem busca proteção básica e prática no dia a dia, mantendo a estética original do celular com ajuste perfeito."
+  },
+  {
+    "id": 179,
+    "nome": "Capa antiimpacto para Nimbus 8",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 6390,
+    "estoque": 42,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Nimbus 8 (todas as versões de armazenamento)",
+      "material": "policarbonato transparente",
+      "proteção": "quinas reforçadas, aguenta quedas de até 2 m"
+    },
+    "descricao": "Capa antiimpacto com quinas reforçadas para Nimbus 8, aguenta quedas de até 2 m. Perfeita para trabalho, viagem e uso rústico, oferecendo proteção máxima sem comprometer a transparência."
+  },
+  {
+    "id": 180,
+    "nome": "Capa carteira para Nimbus Ultra",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 9890,
+    "estoque": 2,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Nimbus Ultra (todas as versões de armazenamento)",
+      "material": "couro sintético com porta-cartões",
+      "proteção": "tampa que protege a tela"
+    },
+    "descricao": "Capa carteira em couro sintético para Nimbus Ultra com porta-cartões integrado. Ideal para viagem, trabalho e passeios, protegendo a tela com tampa e permitindo carregar documentos junto."
+  },
+  {
+    "id": 181,
+    "nome": "Capa de silicone para Kora A5",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 7290,
+    "estoque": 57,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Kora A5 (todas as versões de armazenamento)",
+      "material": "silicone macio",
+      "proteção": "protege contra riscos"
+    },
+    "descricao": "Proteja seu Kora A5 contra riscos com esta capa de silicone macio. Ideal para quem busca proteção prática e diária do celular durante trabalho, estudo e uso rotineiro sem perder a portabilidade."
+  },
+  {
+    "id": 182,
+    "nome": "Capa antiimpacto para Kora Flip",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 9190,
+    "estoque": 48,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Kora Flip (todas as versões de armazenamento)",
+      "material": "policarbonato transparente",
+      "proteção": "quinas reforçadas, aguenta quedas de até 2 m"
+    },
+    "descricao": "Capa antiimpacto com policarbonato transparente para Kora Flip. Indicada para quem precisa de proteção robusta com quinas reforçadas, resistindo a quedas de até 2 m no dia a dia e em viagens."
+  },
+  {
+    "id": 183,
+    "nome": "Capa carteira para Vetta Mini",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 8190,
+    "estoque": 10,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Vetta Mini (todas as versões de armazenamento)",
+      "material": "couro sintético com porta-cartões",
+      "proteção": "tampa que protege a tela"
+    },
+    "descricao": "Capa carteira para Vetta Mini em couro sintético com porta-cartões integrado e tampa protetora de tela. Perfeita para quem busca praticidade, organizando documentos e cartões enquanto protege o celular."
+  },
+  {
+    "id": 184,
+    "nome": "Capa de silicone para Vetta Pro",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 10990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Vetta Pro (todas as versões de armazenamento)",
+      "material": "silicone macio",
+      "proteção": "protege contra riscos"
+    },
+    "descricao": "Proteção em silicone macio para seu Vetta Pro contra riscos do dia a dia. Ideal para quem busca proteger o celular mantendo o design original, perfeita para uso cotidiano e trabalho."
+  },
+  {
+    "id": 185,
+    "nome": "Capa antiimpacto para Orbi Note",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 4990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Orbi Note (todas as versões de armazenamento)",
+      "material": "policarbonato transparente",
+      "proteção": "quinas reforçadas, aguenta quedas de até 2 m"
+    },
+    "descricao": "Capa antiimpacto com quinas reforçadas para Orbi Note, resistente a quedas de até 2 metros. Indicada para quem precisa de proteção máxima durante atividades, viagens e uso intenso do celular."
+  },
+  {
+    "id": 186,
+    "nome": "Capa carteira para Orbi Edge",
+    "categoria": "acessorios",
+    "marca": "Trama",
+    "preco": 9590,
+    "estoque": 53,
+    "atributos": {
+      "tipo": "capa de celular",
+      "compatível com": "Orbi Edge (todas as versões de armazenamento)",
+      "material": "couro sintético com porta-cartões",
+      "proteção": "tampa que protege a tela"
+    },
+    "descricao": "Capa carteira para Orbi Edge com porta-cartões integrado e tampa protetora de tela. Perfeita para trabalho, viagens e uso prático, combinando proteção e funcionalidade no dia a dia."
+  },
+  {
+    "id": 187,
+    "nome": "Teclado Tecla K1",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 43990,
+    "estoque": 2,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "mecânico com fio",
+      "layout": "ABNT2, com ç",
+      "iluminação": "RGB",
+      "destaque": "switch azul, com clique marcado"
+    },
+    "descricao": "Mecânico com fio e layout ABNT2, ideal para digitação, jogos e trabalho. Switch azul com clique marcado oferece feedback tátil preciso. Iluminação RGB personalizável para setup gamer."
+  },
+  {
+    "id": 188,
+    "nome": "Teclado Tecla K1 Silent",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 24990,
+    "estoque": 53,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "mecânico com fio",
+      "layout": "ABNT2, com ç",
+      "iluminação": "branca",
+      "destaque": "switch vermelho, silencioso"
+    },
+    "descricao": "Mecânico com fio e layout ABNT2, perfeito para trabalho e estudo sem distrações. Switch vermelho silencioso reduz ruído durante digitação prolongada. Iluminação branca discreta e elegante."
+  },
+  {
+    "id": 189,
+    "nome": "Teclado Tecla K2 Air",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 22990,
+    "estoque": 13,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "mecânico sem fio",
+      "layout": "ABNT2, com ç",
+      "iluminação": "RGB",
+      "destaque": "switch marrom, bateria de 40 h"
+    },
+    "descricao": "Mecânico sem fio com layout ABNT2, ideal para jogos e trabalho com mobilidade. Switch marrom proporciona digitação confortável. Bateria de 40 horas garante uso prolongado. Iluminação RGB personalizável."
+  },
+  {
+    "id": 190,
+    "nome": "Teclado Tecla Slim",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 21990,
+    "estoque": 15,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "membrana sem fio",
+      "layout": "ABNT2, com ç",
+      "iluminação": "sem iluminação",
+      "destaque": "teclas baixas e silenciosas"
+    },
+    "descricao": "Ideal para trabalho e estudo, este teclado sem fio oferece teclas baixas e silenciosas em layout ABNT2. Perfeito para ambientes que exigem discrição e conforto durante digitação prolongada."
+  },
+  {
+    "id": 191,
+    "nome": "Teclado Tecla Mini 60",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 39990,
+    "estoque": 24,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "mecânico compacto 60%",
+      "layout": "ABNT2, com ç",
+      "iluminação": "RGB",
+      "destaque": "ocupa pouco espaço na mesa"
+    },
+    "descricao": "Perfeito para gamers e produtores que precisam otimizar espaço na mesa. Teclado mecânico compacto 60% com iluminação RGB e layout ABNT2, oferecendo portabilidade sem comprometer performance."
+  },
+  {
+    "id": 192,
+    "nome": "Teclado Tecla Ergo",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 11990,
+    "estoque": 28,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "membrana ergonômico dividido",
+      "layout": "ABNT2, com ç",
+      "iluminação": "sem iluminação",
+      "destaque": "apoio de pulso acolchoado"
+    },
+    "descricao": "Ideal para trabalho prolongado e estudo, este teclado ergonômico dividido com apoio de pulso acolchoado reduz desconforto e fadiga. Layout ABNT2 para digitação confortável."
+  },
+  {
+    "id": 193,
+    "nome": "Teclado Tecla Office",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 20990,
+    "estoque": 24,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "membrana com fio",
+      "layout": "ABNT2, com ç",
+      "iluminação": "sem iluminação",
+      "destaque": "teclado numérico completo"
+    },
+    "descricao": "Ideal para trabalho e estudo, este teclado de membrana com fio oferece layout ABNT2 com ç e teclado numérico completo, proporcionando conforto e praticidade para digitação prolongada no escritório ou home office."
+  },
+  {
+    "id": 194,
+    "nome": "Teclado Tecla Duo",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 19990,
+    "estoque": 41,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "membrana sem fio",
+      "layout": "ABNT2, com ç",
+      "iluminação": "sem iluminação",
+      "destaque": "alterna entre 3 aparelhos com um botão"
+    },
+    "descricao": "Perfeito para trabalho multitarefa, este teclado sem fio de membrana alterna entre 3 aparelhos com um botão, trazendo flexibilidade para conectar computador, notebook ou tablet com layout ABNT2."
+  },
+  {
+    "id": 195,
+    "nome": "Teclado Tecla TKL Pro",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 41990,
+    "estoque": 36,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "mecânico sem teclado numérico",
+      "layout": "ABNT2, com ç",
+      "iluminação": "RGB",
+      "destaque": "switch vermelho, cabo removível"
+    },
+    "descricao": "Excelente para jogos e trabalho criativo, este teclado mecânico compacto apresenta iluminação RGB, switch vermelho e cabo removível, oferecendo performance e design moderno com layout ABNT2."
+  },
+  {
+    "id": 196,
+    "nome": "Teclado Tecla Travel",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 18990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "teclado",
+      "modelo": "dobrável sem fio",
+      "layout": "ABNT2, com ç",
+      "iluminação": "sem iluminação",
+      "destaque": "dobra ao meio e cabe na mochila"
+    },
+    "descricao": "Perfeito para quem trabalha ou estuda em diferentes locais. Teclado dobrável ABNT2 sem fio que cabe na mochila, oferecendo praticidade para viagens e deslocamentos sem perder a funcionalidade de digitação."
+  },
+  {
+    "id": 197,
+    "nome": "Mouse Tecla M1",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 8490,
+    "estoque": 8,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "sem fio",
+      "sensor": "1.600 DPI",
+      "destaque": "cliques silenciosos"
+    },
+    "descricao": "Ideal para trabalho, estudo e uso diário no computador. Mouse sem fio com sensor de 1.600 DPI e cliques silenciosos, proporcionando conforto durante longas sessões de digitação e navegação."
+  },
+  {
+    "id": 198,
+    "nome": "Mouse Tecla M2 Ergo",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 17990,
+    "estoque": 44,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "sem fio, vertical",
+      "sensor": "2.400 DPI",
+      "destaque": "formato vertical que alivia o punho"
+    },
+    "descricao": "Recomendado para quem trabalha muitas horas no computador e busca conforto no punho. Mouse vertical sem fio com sensor de 2.400 DPI, design ergonômico que alivia a tensão durante o trabalho e estudo prolongados."
+  },
+  {
+    "id": 199,
+    "nome": "Mouse Tecla Travel",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 8390,
+    "estoque": 12,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "sem fio, compacto",
+      "sensor": "1.200 DPI",
+      "destaque": "pequeno, para levar na mochila"
+    },
+    "descricao": "Perfeito para trabalho e viagem, este mouse compacto sem fio cabe facilmente na mochila. Com sensor de 1.200 DPI, oferece precisão para tarefas diárias e é ideal para quem precisa de mobilidade."
+  },
+  {
+    "id": 200,
+    "nome": "Mouse Tecla Office",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 3290,
+    "estoque": 58,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "com fio",
+      "sensor": "1.000 DPI",
+      "destaque": "simples e durável"
+    },
+    "descricao": "Indicado para escritório e estudo, este mouse com fio simples e durável oferece sensor de 1.000 DPI. Excelente para trabalho em computador de longa duração com confiabilidade."
+  },
+  {
+    "id": 201,
+    "nome": "Mouse Tecla Duo",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 14990,
+    "estoque": 2,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "sem fio, Bluetooth",
+      "sensor": "2.400 DPI",
+      "destaque": "alterna entre 2 aparelhos"
+    },
+    "descricao": "Ideal para profissionais multitarefa, este mouse sem fio com Bluetooth conecta-se a dois aparelhos simultaneamente. Com sensor de 2.400 DPI, perfeito para trabalho produtivo e apresentações."
+  },
+  {
+    "id": 202,
+    "nome": "Mouse Tecla Pad",
+    "categoria": "acessorios",
+    "marca": "Tecla",
+    "preco": 10990,
+    "estoque": 58,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "sem fio, com mousepad",
+      "sensor": "1.600 DPI",
+      "destaque": "kit com mousepad de tecido"
+    },
+    "descricao": "Ideal para trabalho e estudo, oferece controle preciso com sensor de 1.600 DPI. Conexão sem fio garante liberdade de movimento na mesa, e o mousepad de tecido incluído proporciona superfície estável para maior conforto."
+  },
+  {
+    "id": 203,
+    "nome": "Mouse Arena Strike",
+    "categoria": "acessorios",
+    "marca": "Arena",
+    "preco": 23990,
+    "estoque": 19,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "gamer com fio",
+      "sensor": "16.000 DPI",
+      "destaque": "8 botões programáveis"
+    },
+    "descricao": "Perfeito para jogos competitivos e gaming intenso, com 8 botões programáveis e sensor de 16.000 DPI. Conexão com fio garante resposta imediata, ideal para quem busca precisão e performance em partidas."
+  },
+  {
+    "id": 204,
+    "nome": "Mouse Arena Strike Air",
+    "categoria": "acessorios",
+    "marca": "Arena",
+    "preco": 40990,
+    "estoque": 31,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "gamer sem fio",
+      "sensor": "26.000 DPI",
+      "destaque": "ultraleve, 59 g"
+    },
+    "descricao": "Desenvolvido para jogadores exigentes, oferece sensor de 26.000 DPI e design ultraleve com apenas 59 gramas. Conexão sem fio permite mobilidade total, ideal para gamers que buscam agilidade e controle máximo."
+  },
+  {
+    "id": 205,
+    "nome": "Mouse Arena Raio",
+    "categoria": "acessorios",
+    "marca": "Arena",
+    "preco": 16990,
+    "estoque": 54,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "gamer com fio",
+      "sensor": "12.000 DPI",
+      "destaque": "iluminação RGB"
+    },
+    "descricao": "Perfeito para jogos e competições, este mouse gamer com fio oferece sensor de 12.000 DPI para precisão extrema. Conta com iluminação RGB personalizável, ideal para gamers que buscam desempenho e estilo nas sessões de jogo."
+  },
+  {
+    "id": 206,
+    "nome": "Mouse Arena MMO",
+    "categoria": "acessorios",
+    "marca": "Arena",
+    "preco": 22990,
+    "estoque": 7,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "gamer com fio",
+      "sensor": "16.000 DPI",
+      "destaque": "12 botões laterais"
+    },
+    "descricao": "Ideal para jogadores de MMO e estratégia, este mouse gamer com fio possui sensor de 16.000 DPI e 12 botões laterais programáveis. Oferece total controle e rapidez necessários para competições e longas sessões de jogo."
+  },
+  {
+    "id": 207,
+    "nome": "Mouse Arena Lite",
+    "categoria": "acessorios",
+    "marca": "Arena",
+    "preco": 10990,
+    "estoque": 23,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "gamer com fio",
+      "sensor": "6.400 DPI",
+      "destaque": "bom para começar"
+    },
+    "descricao": "Excelente para iniciantes em jogos, este mouse gamer com fio apresenta sensor de 6.400 DPI suficiente para começar. Opção acessível e confiável para quem está iniciando no universo dos jogos competitivos."
+  },
+  {
+    "id": 208,
+    "nome": "Mouse Arena Pro Air",
+    "categoria": "acessorios",
+    "marca": "Arena",
+    "preco": 48990,
+    "estoque": 38,
+    "atributos": {
+      "tipo": "mouse",
+      "conexão": "gamer sem fio",
+      "sensor": "30.000 DPI",
+      "destaque": "base de carregamento sem fio"
+    },
+    "descricao": "Ideal para jogos competitivos, este mouse gamer sem fio oferece sensor de 30.000 DPI para precisão extrema. Carrega pela base sem fios, mantendo o desempenho constante durante longas sessões de jogos."
+  },
+  {
+    "id": 209,
+    "nome": "Aurora Watch Lite",
+    "categoria": "acessorios",
+    "marca": "Aurora",
+    "preco": 38990,
+    "estoque": 21,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,3 polegada",
+      "bateria": "até 10 dias",
+      "GPS": "não, usa o do celular",
+      "resistência": "IP68 (chuva e respingos)",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "não"
+    },
+    "descricao": "Perfeito para monitorar saúde e atividades do dia a dia, este smartwatch acompanha batimentos, oxigenação e sono. Tela AMOLED vibrante e bateria durável resistem a chuva e respingos, ideal para treinos e rotina."
+  },
+  {
+    "id": 210,
+    "nome": "Aurora Watch 2",
+    "categoria": "acessorios",
+    "marca": "Aurora",
+    "preco": 78990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,4 polegada",
+      "bateria": "até 7 dias",
+      "GPS": "não, usa o do celular",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "sim, atende pelo relógio"
+    },
+    "descricao": "Para quem busca monitorar saúde e atividades físicas intensas, este smartwatch registra batimentos, oxigenação e sono. Resiste até nadar, com bateria durável e permite atender chamadas direto do relógio."
+  },
+  {
+    "id": 211,
+    "nome": "Aurora Watch Sport",
+    "categoria": "acessorios",
+    "marca": "Aurora",
+    "preco": 96990,
+    "estoque": 34,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,4 polegada",
+      "bateria": "até 14 dias",
+      "GPS": "sim, embutido",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "não"
+    },
+    "descricao": "Smartwatch ideal para esportes e academia com tela AMOLED de 1,4 polegada, GPS embutido e resistência para nadar. Monitora batimentos, oxigenação e sono com bateria que dura até 14 dias."
+  },
+  {
+    "id": 212,
+    "nome": "Aurora Watch Pro",
+    "categoria": "acessorios",
+    "marca": "Aurora",
+    "preco": 244990,
+    "estoque": 19,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,5 polegada",
+      "bateria": "até 4 dias",
+      "GPS": "sim, embutido",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono e eletrocardiograma",
+      "chamadas": "sim, atende pelo relógio"
+    },
+    "descricao": "Smartwatch premium para esportes e saúde com tela AMOLED de 1,5 polegada, GPS embutido e resistência para nadar. Atende chamadas pelo relógio, monitora batimentos, oxigenação, sono e eletrocardiograma."
+  },
+  {
+    "id": 213,
+    "nome": "Kora Watch Lite",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 25990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,3 polegada",
+      "bateria": "até 10 dias",
+      "GPS": "não, usa o do celular",
+      "resistência": "IP68 (chuva e respingos)",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "não"
+    },
+    "descricao": "Smartwatch para esportes e monitoramento de saúde com tela AMOLED de 1,3 polegada. Bateria até 10 dias, monitora batimentos, oxigenação e sono com resistência a chuva e respingos."
+  },
+  {
+    "id": 214,
+    "nome": "Kora Watch 2",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 77990,
+    "estoque": 25,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,5 polegada",
+      "bateria": "até 7 dias",
+      "GPS": "não, usa o do celular",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "sim, atende pelo relógio"
+    },
+    "descricao": "Smartwatch com tela AMOLED de 1,5 polegada ideal para acompanhar sua saúde e treinos. Monitora batimentos, oxigenação e sono com bateria de até 7 dias. Atenda chamadas direto do relógio e use resistência à água para nadar."
+  },
+  {
+    "id": 215,
+    "nome": "Kora Watch Sport",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 119990,
+    "estoque": 40,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,5 polegada",
+      "bateria": "até 14 dias",
+      "GPS": "sim, embutido",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "não"
+    },
+    "descricao": "Smartwatch esportivo com tela AMOLED de 1,5 polegada e GPS embutido perfeito para corridas, caminhadas e treinos. Acompanha batimentos, oxigenação e sono com bateria de até 14 dias. Resistente à água para natação."
+  },
+  {
+    "id": 216,
+    "nome": "Kora Watch Pro",
+    "categoria": "acessorios",
+    "marca": "Kora",
+    "preco": 203990,
+    "estoque": 21,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,4 polegada",
+      "bateria": "até 4 dias",
+      "GPS": "sim, embutido",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono e eletrocardiograma",
+      "chamadas": "sim, atende pelo relógio"
+    },
+    "descricao": "Smartwatch premium com tela AMOLED de 1,4 polegada, GPS embutido e eletrocardiograma para monitoramento avançado de saúde. Ideal para atletas e acompanhamento médico com atendimento de chamadas direto do relógio. Resistente à água."
+  },
+  {
+    "id": 217,
+    "nome": "Pulse Fit Lite",
+    "categoria": "acessorios",
+    "marca": "Pulse",
+    "preco": 24990,
+    "estoque": 11,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,3 polegada",
+      "bateria": "até 10 dias",
+      "GPS": "não, usa o do celular",
+      "resistência": "IP68 (chuva e respingos)",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "não"
+    },
+    "descricao": "Smartwatch com tela AMOLED de 1,3 polegada ideal para monitorar saúde, batimentos e oxigenação durante exercícios e academia. Resiste a chuva e respingos com bateria de até 10 dias."
+  },
+  {
+    "id": 218,
+    "nome": "Pulse Fit 2",
+    "categoria": "acessorios",
+    "marca": "Pulse",
+    "preco": 75990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,5 polegada",
+      "bateria": "até 7 dias",
+      "GPS": "não, usa o do celular",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "sim, atende pelo relógio"
+    },
+    "descricao": "Smartwatch com tela AMOLED de 1,5 polegada para quem quer acompanhar saúde, batimentos e sono no dia a dia. Atende chamadas pelo relógio, resiste à água para nadar e oferece bateria de até 7 dias."
+  },
+  {
+    "id": 219,
+    "nome": "Pulse Fit Sport",
+    "categoria": "acessorios",
+    "marca": "Pulse",
+    "preco": 116990,
+    "estoque": 0,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,3 polegada",
+      "bateria": "até 14 dias",
+      "GPS": "sim, embutido",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono",
+      "chamadas": "não"
+    },
+    "descricao": "Smartwatch com GPS embutido e tela AMOLED de 1,3 polegada perfeito para corrida, trilha e esportes aquáticos. Monitora batimentos, oxigenação e sono com bateria de até 14 dias."
+  },
+  {
+    "id": 220,
+    "nome": "Pulse Fit Pro",
+    "categoria": "acessorios",
+    "marca": "Pulse",
+    "preco": 201990,
+    "estoque": 55,
+    "atributos": {
+      "tipo": "smartwatch",
+      "tela": "AMOLED de 1,5 polegada",
+      "bateria": "até 4 dias",
+      "GPS": "sim, embutido",
+      "resistência": "5 ATM, pode nadar",
+      "sensores": "batimentos, oxigenação, sono e eletrocardiograma",
+      "chamadas": "sim, atende pelo relógio"
+    },
+    "descricao": "Relógio inteligente ideal para atividades físicas, academias e monitoramento de saúde. Acompanhe batimentos cardíacos, oxigenação e qualidade do sono. Com GPS integrado, tela AMOLED de 1,5 polegada, resistência à água para natação e bateria até 4 dias. Receba e atenda chamadas direto no relógio."
+  }
+]
