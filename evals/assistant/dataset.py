@@ -19,6 +19,8 @@ class EvalCase(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     id: str
+    # Os casos fora do roteiro entraram na semana 4: ficam num grupo à parte para não mudar a régua dos 15 originais.
+    group: Literal["original", "fora_do_roteiro"] = "original"
     language: Language = "pt"
     history: list[HistoryMessage] = []
     message: str

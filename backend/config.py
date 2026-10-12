@@ -15,17 +15,25 @@ EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 load_dotenv(ROOT_DIR / ".env")
 
-ASSISTANT_MODEL = "claude-sonnet-5-5"
-HELPER_MODEL = "claude-haiku-4-5"
+SONNET = "claude-sonnet-5-5"
+HAIKU = "claude-haiku-5-5"
+HELPER_MODEL = HAIKU
 
-# US$ por milhão de tokens: (entrada, saída)
+# US$ por milhão de tokens: (entrada, saída). O Haiku 5.5 cobra 5× acima de 100K tokens de prompt;
+# as chamadas daqui ficam bem abaixo disso.
 PRICES = {
-    ASSISTANT_MODEL: (2, 10),
-    HELPER_MODEL: (1, 5),
+    SONNET: (2, 10),
+    HAIKU: (0.10, 0.50),
 }
+CACHE_WRITE_FACTOR = 1.25
+CACHE_READ_FACTOR = 0.1
 
-ASSISTANT_MAX_TOKENS = 500
 ASSISTANT_MAX_ROUNDS = 6
+ROUTER_MAX_TOKENS = 50
+POLICY_MAX_TOKENS = 400
+# Quantas mensagens anteriores o separador e o caminho da política leem, para entender uma continuação.
+CONTEXT_MESSAGES = 4
+CONTEXT_MESSAGE_CHARS = 400
 SEARCH_LIMIT = 5
 POLICY_LIMIT = 3
 

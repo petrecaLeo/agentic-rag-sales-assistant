@@ -2,6 +2,7 @@ import json
 import re
 from collections.abc import Callable
 
+from backend.assistant.policy_path import policy_text
 from evals.assistant.dataset import EvalCase
 from evals.assistant.runner import CaseRun
 
@@ -30,11 +31,17 @@ def sentence_count(text: str) -> int:
 def price_grounded(run: CaseRun, case: EvalCase) -> bool:
     results = json.dumps([step.get("result") for step in run.trace], ensure_ascii=False)
     conversation = " ".join([case.message, *(m.content for m in case.history)])
-    return prices(run.answer) <= prices(results) | prices(conversation)
+    # No caminho da política, o Claude recebeu a política inteira: os valores dela (como os R$ 299,00 do frete) têm fonte.
+    policy = policy_text() if run.route == "politica" else ""
+    return prices(run.answer) <= prices(results) | prices(conversation) | prices(policy)
 
 
 def required_tools(run: CaseRun, case: EvalCase) -> bool:
-    return set(case.required_tools) <= {step["tool"] for step in run.trace}
+    used = {step["tool"] for step in run.trace}
+    # O caminho da política entrega a política inteira, que é o que o buscar_politica traria em pedaços.
+    if run.route == "politica":
+        used.add("buscar_politica")
+    return set(case.required_tools) <= used
 
 
 def plain_text(run: CaseRun, case: EvalCase) -> bool:

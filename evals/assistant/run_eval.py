@@ -1,7 +1,9 @@
 import sys
 
+from backend.assistant.profiles import ACTIVE_PROFILE, PROFILES, Profile
 from backend.llm import spending
-from backend.prompts.assistant import ACTIVE_VERSION, ASSISTANT_PROMPTS
+from backend.rag.search import default_policy_search, default_product_search
+from backend.tools.mcp_client import mcp_tools
 from evals.assistant.checks import grade_by_code
 from evals.assistant.dataset import EvalCase, load_dataset
 from evals.assistant.judge import JudgeFailed, grade_by_model
@@ -9,9 +11,20 @@ from evals.assistant.report import print_case, print_report, save_results, summa
 from evals.assistant.runner import run_case
 
 
-def evaluate(case: EvalCase, version: str) -> dict:
-    run = run_case(case, version)
-    result = {"id": case.id, "answer": run.answer, "trace": run.trace, "error": run.error}
+def evaluate(case: EvalCase, profile: Profile) -> dict:
+    run = run_case(case, profile)
+    result = {
+        "id": case.id,
+        "group": case.group,
+        "answer": run.answer,
+        "trace": run.trace,
+        "error": run.error,
+        "route": run.route,
+        "citations": run.citations,
+        "seconds": round(run.seconds, 2),
+        "first_word_seconds": None if run.first_word_seconds is None else round(run.first_word_seconds, 2),
+        "usage": vars(run.usage) | {"cost": round(run.usage.cost, 6)},
+    }
     if run.error:
         return result | {"checks": {}, "code_score": 0.0, "judge_score": 1, "judge_reasoning": "", "score": 0.0}
     code_score, checks = grade_by_code(run, case)
@@ -29,22 +42,28 @@ def evaluate(case: EvalCase, version: str) -> dict:
     }
 
 
-def main(versions: list[str], only: list[str] | None = None) -> int:
-    unknown = [v for v in versions if v not in ASSISTANT_PROMPTS]
+def main(names: list[str], only: list[str] | None = None) -> int:
+    unknown = [name for name in names if name not in PROFILES]
     if unknown:
-        print(f"versões desconhecidas: {unknown}. Disponíveis: {sorted(ASSISTANT_PROMPTS)}")
+        print(f"perfis desconhecidos: {unknown}. Disponíveis: {sorted(PROFILES)}")
         return 1
     cases = [c for c in load_dataset() if not only or c.id in only]
-    reports = {}
-    for version in versions:
-        print(f"\n== {version} ({len(cases)} casos)")
-        spent_before = spending.total
+    # Carrega tudo antes do primeiro caso, como o app faz ao subir: o tempo medido é só o da resposta.
+    default_product_search()
+    default_policy_search()
+    if any(PROFILES[name].tools == "mcp" for name in names):
+        mcp_tools()
+    reports = []
+    for name in names:
+        print(f"\n== {name} ({len(cases)} casos)")
+        judge_before = spending.snapshot("juiz")
         results = []
         for case in cases:
-            results.append(evaluate(case, version))
+            results.append(evaluate(case, PROFILES[name]))
             print_case(results[-1])
-        reports[version] = summarize(results, spending.total - spent_before)
-        print(f"  salvo em {save_results(version, reports[version], results).name}")
+        summary = summarize(results, (spending.snapshot("juiz") - judge_before).cost)
+        reports.append((name, summary))
+        print(f"  salvo em {save_results(name, PROFILES[name], summary, results).name}")
     print_report(reports)
     return 0
 
@@ -52,5 +71,5 @@ def main(versions: list[str], only: list[str] | None = None) -> int:
 if __name__ == "__main__":
     args = sys.argv[1:]
     only = [a.removeprefix("--caso=") for a in args if a.startswith("--caso=")]
-    versions = [a for a in args if not a.startswith("--")] or [ACTIVE_VERSION]
-    sys.exit(main(versions, only))
+    names = [a for a in args if not a.startswith("--")] or [ACTIVE_PROFILE]
+    sys.exit(main(names, only))

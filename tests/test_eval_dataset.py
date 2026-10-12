@@ -10,7 +10,8 @@ CASES = load_dataset()
 
 
 def test_dataset_loads():
-    assert len(CASES) == 15
+    assert len(CASES) == 23
+    assert sum(c.group == "original" for c in CASES) == 15
     assert {c.language for c in CASES} == {"pt", "en"}
 
 

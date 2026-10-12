@@ -54,3 +54,7 @@ test("o passo mostra a busca, o filtro e o teto de preço", () => {
 test("texto longo vindo do modelo é cortado no passo", () => {
   assert.ok(toolLabel("buscar_produtos", { consulta: "x".repeat(500) }).length < 80);
 });
+
+test("o caminho da política tem um rótulo próprio", () => {
+  assert.equal(toolLabel("ler_politica", {}), "Lendo a política da loja");
+});

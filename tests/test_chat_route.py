@@ -1,7 +1,7 @@
 import pytest
 
 from backend import llm
-from backend.config import ASSISTANT_MODEL
+from backend.config import HAIKU
 from tests.conftest import Reply, send, text
 
 
@@ -21,17 +21,18 @@ def test_streams_session_then_text_then_done(client, fake_api):
     assert events[-1] == {"type": "done"}
 
 
-def test_request_uses_sonnet_settings(client, fake_api):
+def test_request_uses_the_active_profile_haiku_settings(client, fake_api):
     fake_api.queue(Reply())
 
     send(client, "oi", language="en")
 
     body = fake_api.requests[0]
-    assert body["model"] == ASSISTANT_MODEL
-    assert body["thinking"] == {"type": "between_tools"}
+    assert body["model"] == HAIKU
+    assert body["thinking"] == {"type": "adaptive"}
     assert body["output_config"] == {"effort": "low"}
+    assert body["cache_control"] == {"type": "ephemeral"}
     assert "temperature" not in body
-    assert "inglês" in body["system"]
+    assert "inglês" in body["system"][0]["text"]
 
 
 def test_history_lives_on_the_server(client, fake_api):

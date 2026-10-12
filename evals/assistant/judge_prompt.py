@@ -1,5 +1,6 @@
 import json
 
+from backend.assistant.policy_path import policy_text
 from backend.prompts.assistant import LANGUAGE_NAMES
 from evals.assistant.dataset import EvalCase
 from evals.assistant.runner import CaseRun
@@ -56,6 +57,9 @@ No raciocínio, use no máximo 5 frases: cite cada problema que encontrou ou dig
 
 
 def format_trace(run: CaseRun) -> str:
+    if run.route == "politica":
+        # O rastro é o que o assistente viu. Aqui foi a política inteira; nem toda frase dela vem marcada como citação.
+        return f"Caminho da política, sem ferramentas: o assistente recebeu a política inteira da loja:\n{policy_text()}"
     if not run.trace:
         return "(nenhuma ferramenta foi usada)"
     steps = []

@@ -5,11 +5,13 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
+from backend.assistant.profiles import active_profile
 from backend.config import ALLOWED_HOSTS, API_DOCS, FRONTEND_DIR
 from backend.errors import register_error_handlers
 from backend.rag.search import default_policy_search, default_product_search
 from backend.routes import chat, health
 from backend.security import SecurityMiddleware
+from backend.tools.mcp_client import mcp_tools
 
 
 @asynccontextmanager
@@ -17,6 +19,8 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     # Carrega o modelo de embeddings e os índices ao subir: a primeira pergunta não espera por isso.
     default_product_search()
     default_policy_search()
+    if active_profile().tools == "mcp":
+        mcp_tools()
     yield
 
 

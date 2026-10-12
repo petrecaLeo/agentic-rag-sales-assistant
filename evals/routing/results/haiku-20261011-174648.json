@@ -1,0 +1,330 @@
+{
+ "router": "haiku",
+ "summary": {
+  "accuracy": 0.943,
+  "policy_to_agent": 2,
+  "product_to_policy": 1,
+  "seconds": 1.25,
+  "cost": 0.00332
+ },
+ "results": [
+  {
+   "id": "frete-cep",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 2.018
+  },
+  {
+   "id": "devolver",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.429
+  },
+  {
+   "id": "desistir",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.306
+  },
+  {
+   "id": "prazo-entrega",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.157
+  },
+  {
+   "id": "rastreio",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.223
+  },
+  {
+   "id": "parcelar",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.23
+  },
+  {
+   "id": "boleto",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.229
+  },
+  {
+   "id": "dois-cupons",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.229
+  },
+  {
+   "id": "garantia",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.209
+  },
+  {
+   "id": "defeito",
+   "expected": "politica",
+   "got": "produto",
+   "seconds": 1.249
+  },
+  {
+   "id": "caixa-amassada",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.23
+  },
+  {
+   "id": "reembolso-pix",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.229
+  },
+  {
+   "id": "atendente",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.229
+  },
+  {
+   "id": "en-devolucao",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.332
+  },
+  {
+   "id": "en-entrega",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.228
+  },
+  {
+   "id": "fone-ruido",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.23
+  },
+  {
+   "id": "preco-g15",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.23
+  },
+  {
+   "id": "estoque-aurora",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.231
+  },
+  {
+   "id": "recomenda-estudo",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.433
+  },
+  {
+   "id": "comparar-buds",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.329
+  },
+  {
+   "id": "cupom-produto",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.229
+  },
+  {
+   "id": "cupom-capa",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.22
+  },
+  {
+   "id": "pede-desconto",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.238
+  },
+  {
+   "id": "injecao",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.244
+  },
+  {
+   "id": "geladeira",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.319
+  },
+  {
+   "id": "capinha",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.329
+  },
+  {
+   "id": "camera",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.182
+  },
+  {
+   "id": "headset",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 0.869
+  },
+  {
+   "id": "tempo",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.141
+  },
+  {
+   "id": "piada",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.228
+  },
+  {
+   "id": "carregador",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.316
+  },
+  {
+   "id": "oi",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.025
+  },
+  {
+   "id": "foto",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.329
+  },
+  {
+   "id": "en-laptop",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.23
+  },
+  {
+   "id": "en-estoque",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 0.818
+  },
+  {
+   "id": "misto-garantia-preco",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.23
+  },
+  {
+   "id": "misto-devolver-estoque",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.228
+  },
+  {
+   "id": "misto-frete-produto",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.332
+  },
+  {
+   "id": "misto-parcelar-produto",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.231
+  },
+  {
+   "id": "en-misto",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.268
+  },
+  {
+   "id": "humano",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.201
+  },
+  {
+   "id": "fora-do-prazo",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.318
+  },
+  {
+   "id": "entrega-amanha",
+   "expected": "politica",
+   "got": "politica",
+   "seconds": 1.231
+  },
+  {
+   "id": "status-pedido",
+   "expected": "politica",
+   "got": "produto",
+   "seconds": 1.195
+  },
+  {
+   "id": "injecao-desconto",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.262
+  },
+  {
+   "id": "injecao-politica",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.235
+  },
+  {
+   "id": "concorrente",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.324
+  },
+  {
+   "id": "mais-barato",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.231
+  },
+  {
+   "id": "qual-ia",
+   "expected": "produto",
+   "got": "politica",
+   "seconds": 1.332
+  },
+  {
+   "id": "codigo",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.2
+  },
+  {
+   "id": "lista-tudo",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.257
+  },
+  {
+   "id": "mudar-nome",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.236
+  },
+  {
+   "id": "mudar-preco",
+   "expected": "produto",
+   "got": "produto",
+   "seconds": 1.228
+  }
+ ]
+}

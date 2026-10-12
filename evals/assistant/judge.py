@@ -24,8 +24,8 @@ def grade_by_model(case: EvalCase, run: CaseRun, attempts: int = 2) -> Verdict:
                 max_tokens=JUDGE_MAX_TOKENS,
                 messages=[{"role": "user", "content": build_judge_prompt(case, run)}],
                 output_format=Verdict,
-                # O SDK 1.x não aceita temperature no parse(); o extra_body manda o campo direto na request.
-                extra_body={"temperature": 0},
+                # O Haiku 5.5 recusa temperature com erro 400 e pensa por padrão; o juiz só precisa da nota.
+                thinking={"type": "disabled"},
             )
         except ValueError as error:
             print(f"[juiz] {case.id}: resposta fora do formato ({str(error).splitlines()[0]})")

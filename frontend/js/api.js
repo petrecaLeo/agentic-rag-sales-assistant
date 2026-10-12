@@ -51,6 +51,12 @@ export async function streamChat({ message, sessionId, language }, { onSession, 
       } else if (event.type === "tool_result") {
         runningTools.shift()?.(event.ok);
         if (event.ok) onToolResult(event.name, event.data);
+      } else if (event.type === "route") {
+        // Perguntas de política seguem um caminho fixo: um passo só, sem tools.
+        if (event.name === "politica") runningTools.push(onToolCall("ler_politica", {}));
+      } else if (event.type === "citations") {
+        runningTools.shift()?.(true);
+        for (const quote of event.items) onNote(`“${quote}”`);
       } else {
         outcome = event.type === "done" ? "done" : event.code;
       }

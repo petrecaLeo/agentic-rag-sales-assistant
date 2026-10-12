@@ -123,3 +123,15 @@ def test_history_keeps_tool_and_thinking_blocks_unchanged(client, fake_api):
     }
     stock = json.loads(next_turn[2]["content"][0]["content"])
     assert stock["id"] == 1
+
+
+def test_a_reply_cut_while_thinking_is_an_error_and_is_not_saved(client, fake_api, session_store):
+    fake_api.queue(
+        Reply([tool_use("t1", "buscar_produtos", {"consulta": "celulares"})], stop_reason="tool_use"),
+        Reply([thinking("Vou montar a lista de todos os produtos...")], stop_reason="max_tokens"),
+    )
+
+    _, events = send(client, "lista todos os produtos")
+
+    assert events[-1] == {"type": "error", "code": "incomplete_reply"}
+    assert all(not session.messages for session in session_store._sessions.values())

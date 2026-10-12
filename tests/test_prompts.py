@@ -1,10 +1,11 @@
 import pytest
 
-from backend.prompts.assistant import ACTIVE_VERSION, ASSISTANT_PROMPTS, build_system
+from backend.assistant.profiles import PROFILES
+from backend.prompts.assistant import ASSISTANT_PROMPTS, build_system
 
 
-def test_active_version_exists():
-    assert ACTIVE_VERSION in ASSISTANT_PROMPTS
+def test_every_profile_uses_an_existing_prompt():
+    assert {profile.prompt for profile in PROFILES.values()} <= set(ASSISTANT_PROMPTS)
 
 
 @pytest.mark.parametrize("version", sorted(ASSISTANT_PROMPTS))
