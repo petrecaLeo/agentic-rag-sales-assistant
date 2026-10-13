@@ -7,7 +7,7 @@ def test_active_profile_exists():
     assert ACTIVE_PROFILE in PROFILES
 
 
-def test_base_is_the_week_3_setup():
+def test_base_is_the_v1_setup():
     params = assistant_params([{"role": "user", "content": "oi"}], "pt", PROFILES["base"])
 
     assert params["model"] == SONNET and params["max_tokens"] == 500

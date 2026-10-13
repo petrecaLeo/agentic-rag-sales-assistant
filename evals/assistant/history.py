@@ -14,7 +14,7 @@ def main() -> None:
     for path in sorted(RESULTS_DIR.glob("*.json"), key=lambda p: p.stat().st_mtime):
         data = json.loads(path.read_text(encoding="utf-8"))
         s = data["summary"]
-        # Os arquivos da semana 3 guardavam a versão do prompt, e não o perfil, e não mediam tempo.
+        # Os arquivos da v1 guardavam a versão do prompt, e não o perfil, e não mediam tempo.
         name = data.get("profile") or f"prompt {data['version']}"
         cost_per_question = "-" if "cost_per_question" not in s else f"${s['cost_per_question']:.4f}"
         print(f"| {path.stem} | {name} | {s['final']} | {cost_per_question} | {cell(s, 'seconds', ' s')} | "

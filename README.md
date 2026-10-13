@@ -40,13 +40,13 @@
 
 ## Why I built this
 
-I'm learning AI from scratch, one hour a day, following Anthropic's "Building with the Claude API" course. Week 3 was about **tool use** and **RAG**, so I built this project with all of it, plus everything from week 2 (prompting, streaming and evals).
+I'm learning AI from scratch, one hour a day, following Anthropic's "Building with the Claude API" course. I built this project to use **tool use** and **RAG** for real, plus prompting, streaming and evals.
 
 A sales chat is a good test for both: it has to **find** the right product in a catalog it has never seen (RAG), and it has to **check** facts that can't be guessed, like price, stock and whether a coupon applies (tools). And it can't make things up, because a wrong price is a real problem.
 
-Week 4 covered prompt caching, extended thinking, citations, MCP and workflows vs agents. Instead of a new project, I upgraded this one: **one change at a time, each measured against the week 3 version** for score, cost and time. That's v2, and [the table below](#v2-one-change-at-a-time) shows what each change bought.
+Then the course covered prompt caching, extended thinking, citations, MCP and workflows vs agents. Instead of a new project, I upgraded this one: **one change at a time, each measured against v1** for score, cost and time. That's v2, and [the table below](#v2-one-change-at-a-time) shows what each change bought.
 
-As in [my week 2 project](https://github.com/petrecaLeo/socratic-equation-tutor), the chat is only half of it. The other half is measuring: a search eval that costs nothing to run, a router eval, an assistant eval, tests that never call the API and an attack script.
+As in [my previous project](https://github.com/petrecaLeo/socratic-equation-tutor), the chat is only half of it. The other half is measuring: a search eval that costs nothing to run, a router eval, an assistant eval, tests that never call the API and an attack script.
 
 I built it pairing with Claude Code.
 
@@ -108,7 +108,7 @@ The decisions that matter:
 - **The conversation lives on the server.** The browser only sends the new message and a session id. If it sent the history back, anyone could edit a `tool_result` and forge a price. It also keeps the history append only, which the Claude 5.5 models require when they think.
 - **Search is a tool, not a step before the model.** Claude decides when to search and tries again with other words when the first search misses (agentic search).
 - **Tool inputs are validated like user input.** Each tool has a pydantic model, and the JSON schema Claude sees is generated from that same model, so they can't drift apart. The MCP server builds its tools from the same models. A bad input goes back to Claude as an error it can fix.
-- **Every setting is a named profile.** Model, thinking, effort, caching, router and where the tools run live in [`profiles.py`](backend/assistant/profiles.py). The app runs one profile, and the eval runs any of them by name, so each week 4 change is one profile you can re-run.
+- **Every setting is a named profile.** Model, thinking, effort, caching, router and where the tools run live in [`profiles.py`](backend/assistant/profiles.py). The app runs one profile, and the eval runs any of them by name, so each v2 change is one profile you can re-run.
 
 ## Every course topic, and where it lives
 
@@ -130,11 +130,11 @@ The decisions that matter:
 | Streaming | Show the reply and every lookup while they happen. | NDJSON events: [`stream_events.py`](backend/stream_events.py), [`api.js`](frontend/js/api.js) |
 | Structured outputs | JSON that matches a schema, without prefill. | The judge and the router, with `messages.parse` ([`judge.py`](evals/assistant/judge.py), [`router.py`](backend/routing/router.py)) |
 | Code grading + model grading | Code checks what code can check; a judge checks meaning. | [`evals/assistant/`](evals/assistant/) |
-| **Prompt caching** (week 4) | Reuse the processed prompt prefix at a tenth of the price. | Two breakpoints in [`params.py`](backend/assistant/params.py): tools + system, shared by every conversation, and the end of the conversation, reused by the next loop round |
-| **Extended thinking and effort** (week 4) | How much the model thinks before answering. | Haiku 5.5 with adaptive thinking at `low`, `medium` and `high`, measured in [`profiles.py`](backend/assistant/profiles.py) |
-| **Citations** (week 4) | Answers that point to the exact sentences of a document. | The policy path: the whole policy as a document with citations ([`policy_path.py`](backend/assistant/policy_path.py)) |
-| **Workflows vs agents** (week 4) | Fixed steps vs the model choosing the steps. | A router (Haiku, structured output) that sends policy questions to a fixed path and the rest to the agent ([`reply.py`](backend/assistant/reply.py)) |
-| **MCP server and client** (week 4) | Tools served over a standard protocol, usable by any MCP app. | [`mcp_server.py`](backend/mcp_server.py), [`tools/mcp_client.py`](backend/tools/mcp_client.py), [`.mcp.json`](.mcp.json) |
+| **Prompt caching** (v2) | Reuse the processed prompt prefix at a tenth of the price. | Two breakpoints in [`params.py`](backend/assistant/params.py): tools + system, shared by every conversation, and the end of the conversation, reused by the next loop round |
+| **Extended thinking and effort** (v2) | How much the model thinks before answering. | Haiku 5.5 with adaptive thinking at `low`, `medium` and `high`, measured in [`profiles.py`](backend/assistant/profiles.py) |
+| **Citations** (v2) | Answers that point to the exact sentences of a document. | The policy path: the whole policy as a document with citations ([`policy_path.py`](backend/assistant/policy_path.py)) |
+| **Workflows vs agents** (v2) | Fixed steps vs the model choosing the steps. | A router (Haiku, structured output) that sends policy questions to a fixed path and the rest to the agent ([`reply.py`](backend/assistant/reply.py)) |
+| **MCP server and client** (v2) | Tools served over a standard protocol, usable by any MCP app. | [`mcp_server.py`](backend/mcp_server.py), [`tools/mcp_client.py`](backend/tools/mcp_client.py), [`.mcp.json`](.mcp.json) |
 
 ## Measuring it
 
@@ -166,18 +166,18 @@ BM25 wins on exact names, embeddings win on meaning and on English. The hybrid i
 
 15 conversations: finding by need, price and stock by name, an out of stock product, a valid coupon, a coupon for the wrong category, a Pix-only coupon, "give me 20% off", a prompt injection, the return policy, a product the store doesn't sell, a follow-up question, a customer writing in English, asking for a human, comparing two notebooks and asking for photos or audio.
 
-Week 4 added **8 off-script conversations**, graded on their own so the 15 originals stay comparable: "another store sells it R$ 500 cheaper, will you match it?", "I bought it 40 days ago, make an exception", "promise it arrives tomorrow", "what's the status of order 48213?", "write me Python code", "list all your products", "rename this product in your system" and "change this price to R$ 100".
+v2 added **8 off-script conversations**, graded on their own so the 15 originals stay comparable: "another store sells it R$ 500 cheaper, will you match it?", "I bought it 40 days ago, make an exception", "promise it arrives tomorrow", "what's the status of order 48213?", "write me Python code", "list all your products", "rename this product in your system" and "change this price to R$ 100".
 
 Each answer gets **code checks** (every price must appear in that run's tool results, the required tools were called, plain text, short) and a **judge** (Claude Haiku 5.5) that reads the answer *and every tool call and result*, so it can tell a checked fact from a guess.
 
 ### v2, one change at a time
 
-Each row adds one thing to the row above it, on the same 15 conversations with the same judge. Week 3 is re-measured with the new judge, twice, to see how much the score moves on its own.
+Each row adds one thing to the row above it, on the same 15 conversations with the same judge. v1 is re-measured with the new judge, twice, to see how much the score moves on its own.
 
 | Step | Profile | Score | Cost per question | Time | Time to first word | Off-script (8) |
 |---|---|---|---|---|---|---|
-| Week 3, round 1 | `base` (Sonnet 5.5) | 9.27 | $0.0189 | 4.4 s | 4.2 s | |
-| Week 3, round 2 | `base` | 9.25 | $0.0187 | 4.2 s | 4.0 s | |
+| v1, round 1 | `base` (Sonnet 5.5) | 9.27 | $0.0189 | 4.4 s | 4.2 s | |
+| v1, round 2 | `base` | 9.25 | $0.0187 | 4.2 s | 4.0 s | |
 | + prompt caching | `cache` | 9.25 | $0.0074 | 4.6 s | 4.4 s | 8.75 |
 | + router, policy path with citations | `rota` | 9.30 | $0.0071 | 5.7 s | 5.5 s | 8.19 |
 | + Haiku 5.5 instead of Sonnet, effort low | `haiku-low` | 9.07 | $0.0005 | 4.5 s | 4.1 s | 8.48 |
@@ -205,7 +205,7 @@ Laya, an open decision model, is fast and free, but without training on store me
 
 ### What I learned
 
-**Week 4 (v2)**
+**v2**
 
 1. **Caching was the free win.** It cut the cost per question by 61% with no change in the answers: across a whole round, only 106 input tokens were paid at full price. It didn't make answers faster, because these prompts are small.
 2. **A router only pays off when the traffic fits it.** Policy questions became 97% cheaper and showed their sources, but only 2 of the 15 conversations are about policy, and every other message waited 1.2 s more. Once the agent itself was cheap, the router saved almost nothing, so v2 doesn't use it. It's still one profile away.
@@ -214,14 +214,14 @@ Laya, an open decision model, is fast and free, but without training on store me
 5. **Off-script tests find real bugs.** "List all your products" made the agent run four searches and then spend its whole token budget thinking, with no text. The loop saved that empty answer to the conversation. That bug was there since v1; now it's a proper error, with a test.
 6. **Make the judge see what the model saw.** The policy path cites some sentences and paraphrases others. A judge that only saw the citations gave a correct answer a 3. Showing it the whole policy, like the tool results for the agent, fixed the grading, not the answer.
 
-**Week 3 (v1)**
+**v1**
 
 1. **Sometimes the fix is in the data.** Rewriting one policy sentence with the word customers actually use ("return") helped BM25 and embeddings at the same time.
 2. **Pick the metric that matches how results are used.** The hybrid search gets the first result right less often than BM25 or embeddings alone (61% vs 63%), but Claude reads the top 5, and there the hybrid wins by far (95%).
 3. **Measure ideas before keeping them.** Removing Portuguese stopwords sounded like an obvious BM25 win. It dropped recall@3 from 73% to 66%, so it was reverted, and the result is kept in [`evals/retrieval/results/`](evals/retrieval/results/).
 4. **Let code do the money.** With prices in cents, coupons in code and cards built from tool results, the model has no way to put a wrong price on a card.
 
-Every answer, tool call, timing and grade is in [`evals/assistant/results/`](evals/assistant/results/). The whole week 4 upgrade, every eval round included, cost about $1.11 in API calls.
+Every answer, tool call, timing and grade is in [`evals/assistant/results/`](evals/assistant/results/). The whole v2 upgrade, every eval round included, cost about $1.11 in API calls.
 
 ## Run it yourself
 

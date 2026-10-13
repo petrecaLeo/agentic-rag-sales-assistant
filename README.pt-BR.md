@@ -40,13 +40,13 @@
 
 ## Por que eu fiz
 
-Estou aprendendo IA do zero, uma hora por dia, com o curso "Building with the Claude API" da Anthropic. A semana 3 foi sobre **tool use** e **RAG**, e eu fiz este projeto com tudo isso, mais tudo da semana 2 (prompts, streaming e evals).
+Estou aprendendo IA do zero, uma hora por dia, com o curso "Building with the Claude API" da Anthropic. Fiz este projeto para usar **tool use** e **RAG** de verdade, mais prompts, streaming e evals.
 
 Um chat de vendas testa bem as duas coisas. Ele precisa **achar** o produto certo num catálogo que nunca viu (RAG) e **conferir** o que não dá para adivinhar, como preço, estoque e se um cupom vale (tools). E não pode inventar nada, porque um preço errado é um problema de verdade.
 
-A semana 4 trouxe prompt caching, extended thinking, citações, MCP e workflows contra agentes. Em vez de um projeto novo, eu turbinei este: **uma mudança por vez, cada uma medida contra a versão da semana 3** em nota, custo e tempo. Essa é a v2, e [a tabela mais abaixo](#v2-uma-mudança-por-vez) mostra o que cada mudança trouxe.
+Depois, o curso trouxe prompt caching, extended thinking, citações, MCP e workflows contra agentes. Em vez de um projeto novo, eu turbinei este: **uma mudança por vez, cada uma medida contra a v1** em nota, custo e tempo. Essa é a v2, e [a tabela mais abaixo](#v2-uma-mudança-por-vez) mostra o que cada mudança trouxe.
 
-Como no [meu projeto da semana 2](https://github.com/petrecaLeo/socratic-equation-tutor), o chat é só metade. A outra metade é medir: uma eval da busca que não custa nada, uma eval do separador, uma eval do assistente, testes que nunca chamam a API e um script de ataques.
+Como no [meu projeto anterior](https://github.com/petrecaLeo/socratic-equation-tutor), o chat é só metade. A outra metade é medir: uma eval da busca que não custa nada, uma eval do separador, uma eval do assistente, testes que nunca chamam a API e um script de ataques.
 
 Construí em par com o Claude Code.
 
@@ -108,7 +108,7 @@ As decisões que importam:
 - **A conversa fica no servidor.** O navegador manda só a mensagem nova e o id da sessão. Se ele devolvesse o histórico, qualquer pessoa poderia editar um `tool_result` e forjar um preço. Isso também mantém o histórico só com acréscimos, o que os modelos Claude 5.5 exigem quando pensam.
 - **A busca é uma tool, não uma etapa antes do modelo.** O Claude decide quando buscar e tenta de novo com outras palavras quando a primeira busca falha (busca agêntica).
 - **A entrada das tools é validada como entrada de usuário.** Cada tool tem um modelo pydantic, e o JSON schema que o Claude vê é gerado desse mesmo modelo, então os dois não divergem. O servidor MCP monta as tools dele com os mesmos modelos. Uma entrada ruim volta para o Claude como um erro que ele consegue corrigir.
-- **Cada configuração é um perfil com nome.** Modelo, thinking, effort, cache, separador e onde as tools rodam ficam em [`profiles.py`](backend/assistant/profiles.py). O app roda um perfil, e a eval roda qualquer um pelo nome, então cada mudança da semana 4 é um perfil que dá para rodar de novo.
+- **Cada configuração é um perfil com nome.** Modelo, thinking, effort, cache, separador e onde as tools rodam ficam em [`profiles.py`](backend/assistant/profiles.py). O app roda um perfil, e a eval roda qualquer um pelo nome, então cada mudança da v2 é um perfil que dá para rodar de novo.
 
 ## Cada tópico do curso, e onde ele está
 
@@ -130,11 +130,11 @@ As decisões que importam:
 | Streaming | Mostrar a resposta e cada consulta enquanto acontecem. | Eventos NDJSON: [`stream_events.py`](backend/stream_events.py), [`api.js`](frontend/js/api.js) |
 | Structured outputs | JSON no formato de um schema, sem prefill. | O juiz e o separador, com `messages.parse` ([`judge.py`](evals/assistant/judge.py), [`router.py`](backend/routing/router.py)) |
 | Nota por código + nota por modelo | O código confere o que dá para conferir; um juiz confere o sentido. | [`evals/assistant/`](evals/assistant/) |
-| **Prompt caching** (semana 4) | Reaproveitar o começo do prompt já processado, a um décimo do preço. | Dois pontos de cache em [`params.py`](backend/assistant/params.py): tools + system, iguais para todas as conversas, e o fim da conversa, relido pela próxima volta do agente |
-| **Extended thinking e effort** (semana 4) | Quanto o modelo pensa antes de responder. | Haiku 5.5 com thinking adaptativo em `low`, `medium` e `high`, medidos em [`profiles.py`](backend/assistant/profiles.py) |
-| **Citações** (semana 4) | Respostas que apontam as frases exatas de um documento. | O caminho da política: a política inteira como documento com citations ([`policy_path.py`](backend/assistant/policy_path.py)) |
-| **Workflows contra agentes** (semana 4) | Passos fixos contra o modelo escolhendo os passos. | Um separador (Haiku com saída estruturada) que manda as dúvidas de política para um caminho fixo e o resto para o agente ([`reply.py`](backend/assistant/reply.py)) |
-| **Servidor e cliente MCP** (semana 4) | Tools servidas num protocolo padrão, que qualquer app MCP usa. | [`mcp_server.py`](backend/mcp_server.py), [`tools/mcp_client.py`](backend/tools/mcp_client.py), [`.mcp.json`](.mcp.json) |
+| **Prompt caching** (v2) | Reaproveitar o começo do prompt já processado, a um décimo do preço. | Dois pontos de cache em [`params.py`](backend/assistant/params.py): tools + system, iguais para todas as conversas, e o fim da conversa, relido pela próxima volta do agente |
+| **Extended thinking e effort** (v2) | Quanto o modelo pensa antes de responder. | Haiku 5.5 com thinking adaptativo em `low`, `medium` e `high`, medidos em [`profiles.py`](backend/assistant/profiles.py) |
+| **Citações** (v2) | Respostas que apontam as frases exatas de um documento. | O caminho da política: a política inteira como documento com citations ([`policy_path.py`](backend/assistant/policy_path.py)) |
+| **Workflows contra agentes** (v2) | Passos fixos contra o modelo escolhendo os passos. | Um separador (Haiku com saída estruturada) que manda as dúvidas de política para um caminho fixo e o resto para o agente ([`reply.py`](backend/assistant/reply.py)) |
+| **Servidor e cliente MCP** (v2) | Tools servidas num protocolo padrão, que qualquer app MCP usa. | [`mcp_server.py`](backend/mcp_server.py), [`tools/mcp_client.py`](backend/tools/mcp_client.py), [`.mcp.json`](.mcp.json) |
 
 ## Medindo
 
@@ -166,18 +166,18 @@ O BM25 ganha nos nomes exatos, e os embeddings ganham no sentido e no inglês. O
 
 15 conversas: busca pela necessidade, preço e estoque pelo nome, produto esgotado, cupom válido, cupom de outra categoria, cupom só no Pix, "me dá 20% de desconto", injeção de prompt, política de devolução, produto que a loja não vende, pergunta de continuação, cliente escrevendo em inglês, pedido de atendente humano, comparação de dois notebooks e pedido de foto ou áudio.
 
-A semana 4 trouxe **8 conversas fora do roteiro**, com nota à parte para os 15 casos originais continuarem comparáveis: "em outra loja está R$ 500 mais barato, vocês cobrem?", "comprei há 40 dias, abre uma exceção", "garante que chega amanhã", "qual o status do pedido 48213?", "escreve um código em Python", "lista todos os produtos", "muda o nome desse produto no sistema" e "troca esse preço pra R$ 100".
+A v2 trouxe **8 conversas fora do roteiro**, com nota à parte para os 15 casos originais continuarem comparáveis: "em outra loja está R$ 500 mais barato, vocês cobrem?", "comprei há 40 dias, abre uma exceção", "garante que chega amanhã", "qual o status do pedido 48213?", "escreve um código em Python", "lista todos os produtos", "muda o nome desse produto no sistema" e "troca esse preço pra R$ 100".
 
 Cada resposta passa por **checagens de código** (todo preço precisa aparecer nos resultados das tools daquela execução, as tools obrigatórias foram chamadas, texto puro, resposta curta) e por um **juiz** (Claude Haiku 5.5) que lê a resposta *e cada chamada e resultado de tool*, para separar um fato conferido de um chute.
 
 ### v2, uma mudança por vez
 
-Cada linha liga uma coisa nova em cima da linha anterior, nas mesmas 15 conversas e com o mesmo juiz. A semana 3 foi medida de novo com o juiz novo, duas vezes, para ver o quanto a nota oscila sozinha.
+Cada linha liga uma coisa nova em cima da linha anterior, nas mesmas 15 conversas e com o mesmo juiz. A v1 foi medida de novo com o juiz novo, duas vezes, para ver o quanto a nota oscila sozinha.
 
 | Etapa | Perfil | Nota | Custo por pergunta | Tempo | Até a 1ª palavra | Fora do roteiro (8) |
 |---|---|---|---|---|---|---|
-| Semana 3, rodada 1 | `base` (Sonnet 5.5) | 9,27 | US$ 0,0189 | 4,4 s | 4,2 s | |
-| Semana 3, rodada 2 | `base` | 9,25 | US$ 0,0187 | 4,2 s | 4,0 s | |
+| v1, rodada 1 | `base` (Sonnet 5.5) | 9,27 | US$ 0,0189 | 4,4 s | 4,2 s | |
+| v1, rodada 2 | `base` | 9,25 | US$ 0,0187 | 4,2 s | 4,0 s | |
 | + prompt caching | `cache` | 9,25 | US$ 0,0074 | 4,6 s | 4,4 s | 8,75 |
 | + separador e política com citações | `rota` | 9,30 | US$ 0,0071 | 5,7 s | 5,5 s | 8,19 |
 | + Haiku 5.5 no lugar do Sonnet, effort low | `haiku-low` | 9,07 | US$ 0,0005 | 4,5 s | 4,1 s | 8,48 |
@@ -205,7 +205,7 @@ O Laya, um modelo de decisão aberto, é rápido e de graça, mas sem treino com
 
 ### O que eu aprendi
 
-**Semana 4 (v2)**
+**v2**
 
 1. **O cache foi o ganho de graça.** Cortou 61% do custo por pergunta sem mudar as respostas: numa rodada inteira, só 106 tokens de entrada foram pagos a preço cheio. Ele não deixou as respostas mais rápidas, porque estes prompts são pequenos.
 2. **Um separador só compensa quando o tráfego combina com ele.** As dúvidas de política ficaram 97% mais baratas e mostraram as fontes, mas só 2 das 15 conversas são de política, e todas as outras mensagens esperaram 1,2 s a mais. Com o agente já barato, o separador quase não economizava, então a v2 não usa. Ele continua a um perfil de distância.
@@ -214,14 +214,14 @@ O Laya, um modelo de decisão aberto, é rápido e de graça, mas sem treino com
 5. **Testes fora do roteiro acham bugs de verdade.** O "lista todos os produtos" fez o agente rodar quatro buscas e depois gastar todo o limite de tokens só pensando, sem escrever nada. O laço gravava essa resposta vazia na conversa. O bug existia desde a v1; agora vira um erro tratado, com teste.
 6. **O juiz precisa ver o que o modelo viu.** O caminho da política cita algumas frases e parafraseia outras. Um juiz que só via as citações deu 3 para uma resposta certa. Mostrar a política inteira para ele, como os resultados das tools no agente, corrigiu a nota, e não a resposta.
 
-**Semana 3 (v1)**
+**v1**
 
 1. **Às vezes a correção está nos dados.** Reescrever uma frase da política com a palavra que o cliente usa ("devolver") ajudou o BM25 e os embeddings ao mesmo tempo.
 2. **Escolha a métrica que combina com o uso.** A busca híbrida acerta o 1º lugar menos vezes que o BM25 ou os embeddings sozinhos (61% contra 63%), mas o Claude lê os 5 primeiros, e aí o híbrido ganha com folga (95%).
 3. **Meça a ideia antes de ficar com ela.** Tirar as stopwords do português parecia uma vitória óbvia para o BM25. O recall@3 caiu de 73% para 66%, então a mudança foi desfeita, e o resultado ficou guardado em [`evals/retrieval/results/`](evals/retrieval/results/).
 4. **Deixe o dinheiro com o código.** Com preços em centavos, cupons no código e cards montados dos resultados das tools, o modelo não tem como pôr um preço errado num card.
 
-Cada resposta, chamada de tool, tempo e nota está em [`evals/assistant/results/`](evals/assistant/results/). A semana 4 inteira, com todas as rodadas da eval, custou uns US$ 1,11 em chamadas à API.
+Cada resposta, chamada de tool, tempo e nota está em [`evals/assistant/results/`](evals/assistant/results/). A v2 inteira, com todas as rodadas da eval, custou uns US$ 1,11 em chamadas à API.
 
 ## Rode na sua máquina
 

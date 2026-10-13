@@ -10,7 +10,7 @@ class Profile:
     thinking: dict
     effort: str
     max_tokens: int = 500
-    # O prompt da semana 3: os perfis medidos o mantêm, para a comparação ficar justa.
+    # O prompt da v1: os perfis medidos o mantêm, para a comparação ficar justa.
     prompt: str = "v2"
     cache: bool = False
     router: str | None = None
@@ -39,7 +39,7 @@ PROFILES = {
     for profile in [BASE, CACHE, ROTA, HAIKU_LOW, HAIKU_MEDIUM, HAIKU_HIGH, MCP, HAIKU_DIRETO, HAIKU_V3]
 }
 
-# Escolhido na etapa 7 da semana 4 (o haiku-direto, que é o mais rápido e 47 vezes mais barato que a semana 3), com o prompt v3.
+# O perfil da v2: o haiku-direto, que é o mais rápido e 47 vezes mais barato que a v1, com o prompt v3.
 ACTIVE_PROFILE = "haiku-v3"
 
 
